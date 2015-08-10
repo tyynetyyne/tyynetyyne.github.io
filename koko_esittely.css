@@ -1,0 +1,231 @@
+<style>
+	body {
+		background: hsl(174, 42%, 88%); /* #d3e7e6; */
+		font-family: Verdon, Tahoma, Arial, sans-serif;
+		font-size: 18px;
+		overflow:auto;
+	}
+	h1, h2, h3 {
+	text-align: left;
+	padding-left: 5%;
+	color: #292916; /*# #878E63; /*#231f20;*/
+	}
+	h1 {
+		font-size: 200%;
+	}
+	h2 {
+		font-size: 150%;
+	}
+	h3 {
+		font-size: 130%;
+	}
+	/* unvisited link */
+	a:link {
+    color: #292916; 
+	}
+	/* visited link */
+	a:visited {
+    color: #4D4D4D;
+	}
+	/* selected link */
+	a:active {
+    color: #4D4D4D;
+	}
+	img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto\8;
+	}
+	p {
+	padding: 1%;
+	text-align: left;
+	color:  #292916; /*#878E63;*/
+	}
+	.list_items {
+    list-style-type:circle;
+	padding-left: 3%;
+	}
+	#wrapper {
+	margin: 0 auto;
+	max-width: 1020px;
+	width: 98%;
+	background: #FEFBE8;
+	border: 1px solid #878E63;
+	border-radius: 2px;
+	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+	}
+	#callout{
+		width: 100%;
+		height: auto;
+		background: #4D4D4D;/* #e2e47c;*/
+		overflow: hidden;
+	}
+	#callout p{
+		text-align: right;
+		color: #F1F0D1; /*#878E63; /*#FEFBE8;*/
+		font-size: 13px;
+		padding: 0.1% 5% 0 0;
+	}
+	#callout p a{
+		color:  #F1F0D1; 
+		text-decoration: none;
+	}
+	header {
+		width: 96%;
+		min-height: : 125px;
+		padding-left: 2%;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0;
+		padding-left: 2%;
+	}
+	nav ul li{
+		float:  left;
+		border:  1px solid #098aa1; /*878E63;*/
+		width: 16.2%;
+	}
+	nav ul li a, nav ul li a:visited{
+		background: #098aa1; /*#686939; /*#F1F0D1;*/
+		display: block;
+		padding: 5%, 12%;
+		font-weight: bold;
+		font-size: 18px;
+		color: #231f20;
+		text-decoration: none;
+		text-align: center;
+	}
+	nav ul li a:hover, nav ul li.active a{
+		background: #098aa1; /* #858649; /*#767740; /*#878E63;*/
+		color: #F1F0D1;
+	}
+	.banner_img {
+		width: 100%;
+		border-top: 1px solid #878E63;
+		border-bottom: 1px solid #878E63;
+		text-align: center;	
+	}
+	.info_text{	
+		text-align: center;
+		padding-left: 5%;
+		color: #292916;
+		font-weight: bold;
+		font-size: 120%;
+	}
+	.logo_img {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	.left_col {
+		width: 55%;
+		float: left;
+		text-align: left;
+		margin: 0% 1% 0% 1%;
+		padding-left: 3%;
+	}
+	.right_col {
+		width: 35%;
+		float: right;
+		margin: 0 auto;
+		text-align: center;
+		padding-right: 3%;
+	}
+	.single_section {
+		float: left;
+		margin: 0 auto;
+		width: 80%;
+		height: auto;
+		margin: 1% 1% 1% 1%;
+		padding-left: 3%; 
+		padding-right: 3%;
+	}
+	.double_section {
+		width: 45%;
+		float: left;
+		margin: 2% 2%;
+		text-align: center;
+	}
+	.triple_section {
+		width: 29%;
+		float: left;
+		margin: 1% 1%;
+		text-align: center;
+	}
+	footer {
+		background: #abddd8; /* #e2e47c;*/
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+	}
+	footer p, footer h3 {
+		color: #4D4D4D; /* #292916; #878E63;*/
+		text-align: center;
+	}
+	footer p a {
+		color: #4D4D4D; /*#F1F0D1;*/
+		text-decoration: none;
+	}
+	.clearfix {
+		clear: both;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	li{ 
+		display: inline;
+	}
+	ul il img {
+		height: 40px;
+	}
+	/**-------------MEDIA!--------------------*/
+	@media screen and (max-width: 470px) {
+		body {
+			font-size: 13px;
+		}
+	}
+	@media screen and (max-width: 740px) {
+		nav {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		nav ul{
+			list-style: none;
+			margin: 0 auto;
+			padding-left: 0;	
+		}
+		nav ul li {
+			text-align: center;
+			margin-left: 0 auto;
+			width: 100%;
+		border-top: 1px solid #098aa1; /*878E63;*/
+		border-right: 0px solid #098aa1;
+		border-bottom: 1px solid #098aa1;
+		border-left: 0px solid #098aa1;
+		}
+		nav ul li a {
+			padding: 8px; 0;
+			font-size: 16px;
+		}
+		.left-col{
+		width: 100%;
+		text-align: center;
+		}
+		.sidebar{
+		width: 100%;
+		}
+		.section{
+			float: left;
+			margin: 0;
+		width: 100%;
+		}
+	}
+	
+	</style>
