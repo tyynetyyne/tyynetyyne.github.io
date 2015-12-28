@@ -62,17 +62,18 @@
 		overflow: hidden;
 	}
 	#callout p{
-		text-align: right;
+		text-align: center;
 		color: #F1F0D1; /*#878E63; /*#FEFBE8;*/
+		font-weight: bold;
 		font-size: 13px;
-		padding: 0.1% 5% 0 0;
+		padding: 0.5% 5% 0 0;
 	}
 	#callout p a{
 		color:  #F1F0D1; 
 		text-decoration: none;
 	}
 	header {
-		width: 96%;
+		width: 97%;
 		min-height: : 125px;
 		padding-left: 2%;
 		padding-top: 10px;
