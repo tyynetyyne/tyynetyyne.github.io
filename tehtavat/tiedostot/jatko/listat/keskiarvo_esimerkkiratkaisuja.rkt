@@ -61,6 +61,9 @@
 (check-expect (laske (list 2 3 4))
               1)
 
+(check-expect (laske (list 2 2 2 3 3 4))
+              3)
+
 ;; leikkaa listan alusta pois kaikki samat alkiot
 ;; leikkaa : Lista Luku -> Lista
 (define (leikkaa lista)
@@ -81,7 +84,7 @@
               "ei määritelty")
 
 (check-expect (apu-moodi "ei määritelty" 0 (list 1 1 1 2 3 4 5))
-              3)
+              1)
 
 ;; moodi : Lista<Luku> -> Luku
 (define (moodi luvut)
