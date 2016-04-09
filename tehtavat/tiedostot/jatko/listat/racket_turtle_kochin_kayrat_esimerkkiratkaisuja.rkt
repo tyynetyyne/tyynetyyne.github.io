@@ -63,5 +63,28 @@
 
 (draw KOCH3)
 
+;; Koch-rekursiivinen ratkaisu
+;; r-sivu : Luku -> Lista<Funktio>
+(define (r-sivu s)
+  (if (<= s 6)
+      (forward s)
+      (list (r-sivu (/ s 3))
+            (turn-left 60)
+            (r-sivu (/ s 3))
+            (turn-right 120)
+            (r-sivu (/ s 3))
+            (turn-left 60)
+            (r-sivu (/ s 3)))))
 
+;; koch : Luku -> Lista<Funktio>
+(define (koch s)
+  (list (mirror-y-on)
+        (turn-left 30)
+        (repeat 3
+                (list
+                 (r-sivu (/ s 3))
+                 (turn-left 60)
+                 (r-sivu (/ s 3))
+                 (turn-right 120)))))
 
+(draw (koch 180))
