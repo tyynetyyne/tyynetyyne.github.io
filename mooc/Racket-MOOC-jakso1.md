@@ -9,7 +9,7 @@ Videot 2. – 6. kannattaa seurata niin, että katsot videota pienen pätkän ja
 *HUOM! WeSchemessä ei tarvitse ottaa käyttöön kuvakirjastoa, eli tämä koodirivi on turha: (require 2htdp/image).*
 
 ###Videot 
-nro  | Video                                                           |    Linkki                                   
+nro  | Video  |    Linkki                                   
 -------                                              |
 1.  | Työkalut DrRacket ja WeScheme (2:54 min) |  https://youtu.be/F5_ZIPsj0xI  
 2.  | Lausekkeet ja evaluointiin (5:57 min)  |	https://youtu.be/oW4G0kly9Iw
@@ -29,15 +29,42 @@ Oheisessa PowerPoint – esityksessä kerrataan sekä täydennetään videoiden 
 Harjoitustehtävistä on tarkoitettu tehtäväksi vähintään perustehtävät. Jos tunnet tarvetta harjoitella enemmän voit tehdä myös lisätehtäviä.
 
 ###Perustehtävät:
-Koodaa Japanin lippu sekä Suomen lippu tai auto. Avaa tehtävä: [Kuvakoodaus 1](http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html).
+- Koodaa Japanin lippu 
+- Koodaa Suomen lippu tai auto
+Avaa tehtävä: [Kuvakoodaus 1](http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html).
 
 ###Lisätehtävät:
-Jos kuvienmuokkaus kiinnostaa (ja katsoit siihen liityvän videon 6.) voit harjoitella lisää näillä tehtävillä: [Kuvakoodaus 2](http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html#%28part._racket_alkeet_peruskuviot_2%29).
-Kuvakoodauksen sijaan voit harjoitella Racket-kielen alkeita myös kirjoittamalla peruslaskulausekkeita. Avaa tehtävä: [Peruslaskut](http://racket.koodiaapinen.fi/tehtavat/peruslaskut_ja_laskujarjestys.html).
+- Jos kuvienmuokkaus kiinnostaa (ja katsoit siihen liityvän videon 6.) voit harjoitella lisää näillä tehtävillä: 
+Avaa tehtävä: [Kuvakoodaus 2](http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html#%28part._racket_alkeet_peruskuviot_2%29).
+
+- Kuvakoodauksen sijaan voit harjoitella Racket-kielen alkeita myös kirjoittamalla peruslaskulausekkeita. 
+Avaa tehtävä: [Peruslaskut](http://racket.koodiaapinen.fi/tehtavat/peruslaskut_ja_laskujarjestys.html).
 
 ###Malliratkaisut:
 
-Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, löydät malliratkaisut Eliademyn ”Koodausta kouluun Racket” – kurssin osasta 2. Kuvat – 2htdp/image.
+Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.
+
+####Perustehtävät (Kuvakoodaus 1):
+
+Tehtävä | Malliratkaisut  | Malliratkaisut                                  
+-------                                              |
+Japanin lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/japaninlippu_esimerkkiratkaisuja.rkt) | [WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/japaninlippu_esimerkkiratkaisuja.html)  
+Suomen lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/suomenlippu_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/suomenlippu_esimerkkiratkaisuja.html)
+Auto | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/auto_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/auto_esimerkkiratkaisuja.html)
+
+####Lisätehtävät (Kuvakoodaus 2):
+
+Tehtävä | Malliratkaisut |    Malliratkaisut                                  
+-------                                              |
+Kukka | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/kukka_esimerkkiratkaisuja.rkt) | [WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kukka_esimerkkiratkaisuja.html)  
+Neliö ympyrän paloista | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ympyrakuvio_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ympyrakuvio_esimerkkiratkaisuja.html)
+Pikseliukko | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ukkeli_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ukkeli_esimerkkiratkaisuja.html)
+
+####Lisätehtävät (Peruslaskut):
+Tehtävä | Malliratkaisut |  Malliratkaisut                                  
+-------                                              |
+Peruslaskut ja laskujärjestys| [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/peruslaskut/laskujarjestys_esimerkkiratkaisuja.rkt) | [WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/laskujarjestys_esimerkkiratkaisuja.html)
+
 
 ##3. Palautettava koodaustehtävä
 
@@ -47,11 +74,11 @@ Halutessasi voit käyttää apuna myös kuvanmuokkausfunktiota (esim. rotate, fl
 
 Ole luova ja kokeile rohkeasti! Tämän viikon tarkoitus on tutustua työkaluihin sekä materiaalin käyttämiseen, joten älä aseta rimaa liian korkealle!
 
-Palauta tekemäsi Racket – kuva tehtäväosion ohjeiden mukaisesti.
+Palauta tekemäsi Racket – kuva (png-muodossa) [tehtävänpalautussivun kautta](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-1/kuva/).
 
-Saat tallennettua kuvan DrRacketissä/WeSchemessä valitsemalla sen hiirellä ja valitsemalla hiiren oikealla näppäimellä *”Save image as”*. Tallenna kuva .png – muodossa. Muista myös tallentaa koodisi *”File->Save definitions as”*, siitä voi olla iloa myöhemmin.
+Saat tallennettua kuvan png-muodossa DrRacketissä/WeSchemessä valitsemalla sen hiirellä ja valitsemalla hiiren oikealla näppäimellä *”Save image as”* ja antamalla kuvalle nimen ja .png – liitteen. Muista myös tallentaa koodisi *”File->Save definitions as”*, siitä voi olla iloa myöhemmin.
 
-*Vinkki:* Oppitunnilla koodattuja kuvia on kätevä jakaa muiden katsottavaksi esim. Padlet-seinän kautta. Kuva liitetään Padlet-seinälle avaamalla uusi editori tuplaklikkaamalla seinää ja valitsemalla kameran kuva.
+*Vinkki:* Oppitunnilla koodattuja kuvia on kätevä jakaa muiden katsottavaksi esim. [Padlet](http://padlet.com)-seinän kautta. Kuva liitetään Padlet-seinälle avaamalla uusi editori tuplaklikkaamalla seinää ja valitsemalla kameran kuva.
 
 ##4. Ongelmia?
 
@@ -60,3 +87,4 @@ Saat tallennettua kuvan DrRacketissä/WeSchemessä valitsemalla sen hiirellä ja
 **Siitä se koodarin ura lähtee käyntiin!**
 
 > Written with [StackEdit](https://stackedit.io/).
+
