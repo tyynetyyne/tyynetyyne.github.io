@@ -11,12 +11,12 @@ Videot 2. – 6. kannattaa seurata niin, että katsot videota pienen pätkän ja
 ###Videot 
 nro  | Video  |    Linkki                                   
 -------                                              |
-1.  | Työkalut DrRacket ja WeScheme (2:54 min) |  https://youtu.be/F5_ZIPsj0xI  
-2.  | Lausekkeet ja evaluointiin (5:57 min)  |	https://youtu.be/oW4G0kly9Iw
-3.  | Peruskuvioiden piirtäminen (7.52 min)  |	https://youtu.be/W7Aof-hnzkw
-4.  | Kuvien yhdistely (7.18 min), *.rkt tiedosto, jota jatketaan videolla   | https://youtu.be/2EM6csmcBkE
-5.  | Muuttujien käyttäminen: define (5.55 min) *.rkt tiedosto, jota jatketaan videolla | 	https://youtu.be/C5p7MaIQFoo
-6.  | Kuvien muokkaus (9.14 min) *.rkt tiedosto, jota jatketaan videolla |  	https://youtu.be/gL5vw3xAx7g
+1.  | Työkalut DrRacket ja WeScheme (2:54 min) |  <a href="https://youtu.be/F5_ZIPsj0xI" target="_blank">katso video</a>  
+2.  | Lausekkeet ja evaluointiin (5:57 min)  |	<a href="https://youtu.be/oW4G0kly9Iw" target="_blank">katso video</a>
+3.  | Peruskuvioiden piirtäminen (7.52 min)  |	<a href="https://youtu.be/W7Aof-hnzkw" target="_blank">katso video</a>
+4.  | Kuvien yhdistely (7.18 min), *.rkt tiedosto, jota jatketaan videolla   | <a href="https://youtu.be/2EM6csmcBkE" target="_blank">katso video</a>
+5.  | Muuttujien käyttäminen: define (5.55 min) *.rkt tiedosto, jota jatketaan videolla | 	<a href="https://youtu.be/C5p7MaIQFoo" target="_blank">katso video</a>
+6.  | Kuvien muokkaus (9.14 min) *.rkt tiedosto, jota jatketaan videolla |  	<a href="https://youtu.be/gL5vw3xAx7g" target="_blank">katso video</a>	
 
 Oheisessa PowerPoint – esityksessä kerrataan sekä täydennetään videoiden sisältöä. Diasarjan lopussa on ”debuggausosio”, jossa käydään läpi yleisimmät virheilmoitukset ja niiden syyt. Käytä sitä apuna kun teet harjoitustehtäviä.
 
@@ -31,14 +31,14 @@ Harjoitustehtävistä on tarkoitettu tehtäväksi vähintään perustehtävät. 
 ###Perustehtävät:
 - Koodaa Japanin lippu 
 - Koodaa Suomen lippu tai auto
-Avaa tehtävä: [Kuvakoodaus 1](http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html).
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html" target="_blank">Kuvakoodaus 1</a>.
 
 ###Lisätehtävät:
 - Jos kuvienmuokkaus kiinnostaa (ja katsoit siihen liityvän videon 6.) voit harjoitella lisää näillä tehtävillä: 
-Avaa tehtävä: [Kuvakoodaus 2](http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html#%28part._racket_alkeet_peruskuviot_2%29).
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html#%28part._racket_alkeet_peruskuviot_2%29" target="_blank">Kuvakoodaus 2</a>.
 
 - Kuvakoodauksen sijaan voit harjoitella Racket-kielen alkeita myös kirjoittamalla peruslaskulausekkeita. 
-Avaa tehtävä: [Peruslaskut](http://racket.koodiaapinen.fi/tehtavat/peruslaskut_ja_laskujarjestys.html).
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/peruslaskut_ja_laskujarjestys.html#%28part._racket_alkeet_peruslaskut_1%29" target="_blank">Peruslaskut</a>.
 
 ###Malliratkaisut:
 
@@ -48,22 +48,22 @@ Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratk
 
 Tehtävä | Malliratkaisut  | Malliratkaisut                                  
 -------                                              |
-Japanin lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/japaninlippu_esimerkkiratkaisuja.rkt) | [WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/japaninlippu_esimerkkiratkaisuja.html)  
-Suomen lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/suomenlippu_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/suomenlippu_esimerkkiratkaisuja.html)
-Auto | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/auto_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/auto_esimerkkiratkaisuja.html)
+Japanin lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/japaninlippu_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/japaninlippu_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
+Suomen lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/suomenlippu_esimerkkiratkaisuja.rkt)  | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/suomenlippu_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>	
+Auto | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/auto_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/auto_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
 ####Lisätehtävät (Kuvakoodaus 2):
 
 Tehtävä | Malliratkaisut |    Malliratkaisut                                  
 -------                                              |
-Kukka | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/kukka_esimerkkiratkaisuja.rkt) | [WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kukka_esimerkkiratkaisuja.html)  
-Neliö ympyrän paloista | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ympyrakuvio_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ympyrakuvio_esimerkkiratkaisuja.html)
-Pikseliukko | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ukkeli_esimerkkiratkaisuja.rkt)  |	[WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ukkeli_esimerkkiratkaisuja.html)
+Kukka | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/kukka_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kukka_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
+Neliö ympyrän paloista | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ympyrakuvio_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ympyrakuvio_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
+Pikseliukko | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ukkeli_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ukkeli_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
 ####Lisätehtävät (Peruslaskut):
 Tehtävä | Malliratkaisut |  Malliratkaisut                                  
 -------                                              |
-Peruslaskut ja laskujärjestys| [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/peruslaskut/laskujarjestys_esimerkkiratkaisuja.rkt) | [WeScheme](http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/laskujarjestys_esimerkkiratkaisuja.html)
+Peruslaskut ja laskujärjestys| [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/peruslaskut/laskujarjestys_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/laskujarjestys_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
 
 ##3. Palautettava koodaustehtävä
@@ -78,7 +78,7 @@ Palauta tekemäsi Racket – kuva (png-muodossa) [tehtävänpalautussivun kautta
 
 Saat tallennettua kuvan png-muodossa DrRacketissä/WeSchemessä valitsemalla sen hiirellä ja valitsemalla hiiren oikealla näppäimellä *”Save image as”* ja antamalla kuvalle nimen ja .png – liitteen. Muista myös tallentaa koodisi *”File->Save definitions as”*, siitä voi olla iloa myöhemmin.
 
-*Vinkki:* Oppitunnilla koodattuja kuvia on kätevä jakaa muiden katsottavaksi esim. [Padlet](http://padlet.com)-seinän kautta. Kuva liitetään Padlet-seinälle avaamalla uusi editori tuplaklikkaamalla seinää ja valitsemalla kameran kuva.
+*Vinkki:* Oppitunnilla koodattuja kuvia on kätevä jakaa muiden katsottavaksi esim. <a href="http://padlet.com" target="_blank">Padlet</a>-seinän kautta. Kuva liitetään Padlet-seinälle avaamalla uusi editori tuplaklikkaamalla seinää ja valitsemalla kameran kuva.
 
 ##4. Ongelmia?
 
