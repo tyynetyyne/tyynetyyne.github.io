@@ -75,7 +75,7 @@ Halutessasi voit käyttää apuna myös kuvanmuokkausfunktiota (esim. rotate, fl
 Ole luova ja kokeile rohkeasti! Tämän viikon tarkoitus on tutustua työkaluihin sekä materiaalin käyttämiseen, joten älä aseta rimaa liian korkealle!
 
 Palauta tekemäsi Racket – kuva (png-muodossa) [tehtävänpalautussivun kautta](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-1/kuva/).
-
+Voit katsella kurssilaisten koodaamia kuvia [kuvagallerian kautta]("https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-1/muidenkuvat/"). Voit myös kommentoida muiden kuvia kommenttinapin kautta.
 Saat tallennettua kuvan png-muodossa DrRacketissä/WeSchemessä valitsemalla sen hiirellä ja valitsemalla hiiren oikealla näppäimellä *”Save image as”* ja antamalla kuvalle nimen ja .png – liitteen. Muista myös tallentaa koodisi *”File->Save definitions as”*, siitä voi olla iloa myöhemmin.
 
 *Vinkki:* Oppitunnilla koodattuja kuvia on kätevä jakaa muiden katsottavaksi esim. <a href="http://padlet.com" target="_blank">Padlet</a>-seinän kautta. Kuva liitetään Padlet-seinälle avaamalla uusi editori tuplaklikkaamalla seinää ja valitsemalla kameran kuva.
