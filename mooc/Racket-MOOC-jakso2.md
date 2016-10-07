@@ -1,4 +1,6 @@
 
+
+
 Tervetuloa – Racket kurssin 2. jaksolle
 ------------------------------------------------------
 ##1. Opiskeltava sisältö
@@ -69,7 +71,7 @@ Harjoittele ehtolauseita sisältävien funktioiden määrittelemistä valitsemal
 ####Perustehtävät:
 
 - Tutustutaan kolmion ominaisuuksiin ehtolauseen ja funktion avulla
-Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/perusteet_totuusarvot_ja_ehtolauseet.html#%28part._racket_perusteet_kolmiotehtavat_.A1%29" target="_blank">Kolmiotehtävät A</a>.
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/perusteet_totuusarvot_ja_ehtolauseet.html#%28part._racket_perusteet_kolmiotehtavat_.A1%29" target="_blank">Kolmiotehtävät A1</a>.
 
 - Harjoittele sisäkkäisiä ehtolauseita valon aallonpituuksien yhteydessä
 Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/perusteet_totuusarvot_ja_ehtolauseet.html#%28part._racket_perusteet_robottisilma%29" target="_blank">Robottisilmä</a>.
@@ -95,7 +97,7 @@ Särmiön levityskuva | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedos
 
 Tehtävä | Malliratkaisut |    Malliratkaisut                                  
 -------                                              |
-Kolmiotehtävät A  | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/kolmiot_A1_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_A1_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
+Kolmiotehtävät A1  | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/kolmiot_A1_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_A1_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 Robottisilmä | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/robottisilma_esimerkkiratkaisuja.rkt)  | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/robottisilma_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>	                                       |
 Pyöristäminen | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/pyoristys_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/pyoristys_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
