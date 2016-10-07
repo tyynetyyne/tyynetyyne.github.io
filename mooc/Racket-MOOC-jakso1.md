@@ -14,9 +14,9 @@ nro  | Video  |    Linkki
 1.  | Työkalut DrRacket ja WeScheme (2:54 min) |  <a href="https://youtu.be/F5_ZIPsj0xI" target="_blank">katso video</a>  
 2.  | Lausekkeet ja evaluointiin (5:57 min)  |	<a href="https://youtu.be/oW4G0kly9Iw" target="_blank">katso video</a>
 3.  | Peruskuvioiden piirtäminen (7.52 min)  |	<a href="https://youtu.be/W7Aof-hnzkw" target="_blank">katso video</a>
-4.  | Kuvien yhdistely (7.18 min), *.rkt tiedosto, jota jatketaan videolla   | <a href="https://youtu.be/2EM6csmcBkE" target="_blank">katso video</a>
-5.  | Muuttujien käyttäminen: define (5.55 min) *.rkt tiedosto, jota jatketaan videolla | 	<a href="https://youtu.be/C5p7MaIQFoo" target="_blank">katso video</a>
-6.  | Kuvien muokkaus (9.14 min) *.rkt tiedosto, jota jatketaan videolla |  	<a href="https://youtu.be/gL5vw3xAx7g" target="_blank">katso video</a>	
+4.  | Kuvien yhdistely (7.18 min), [*.rkt tiedosto](http://racket.koodiaapinen.fi/videot/tiedostot/2.2.racket_alkeet_kuvien_yhdistely.rkt), jota jatketaan videolla   | <a href="https://youtu.be/2EM6csmcBkE" target="_blank">katso video</a>
+5.  | Muuttujien käyttäminen: define (5.55 min) [*.rkt tiedosto](http://racket.koodiaapinen.fi/videot/tiedostot/2.3.racket_alkeet_maarittelyt_define.rkt), jota jatketaan videolla | 	<a href="https://youtu.be/C5p7MaIQFoo" target="_blank">katso video</a>
+6.  | Kuvien muokkaus (9.14 min) [*.rkt tiedosto](http://racket.koodiaapinen.fi/videot/tiedostot/2.4.racket_alkeet_kuvien_muokkaus.rkt), jota jatketaan videolla |  	<a href="https://youtu.be/gL5vw3xAx7g" target="_blank">katso video</a>	
 
 Oheisessa PowerPoint – esityksessä kerrataan sekä täydennetään videoiden sisältöä. Diasarjan lopussa on ”debuggausosio”, jossa käydään läpi yleisimmät virheilmoitukset ja niiden syyt. Käytä sitä apuna kun teet harjoitustehtäviä.
 
@@ -75,7 +75,7 @@ Halutessasi voit käyttää apuna myös kuvanmuokkausfunktiota (esim. rotate, fl
 Ole luova ja kokeile rohkeasti! Tämän viikon tarkoitus on tutustua työkaluihin sekä materiaalin käyttämiseen, joten älä aseta rimaa liian korkealle!
 
 Palauta tekemäsi Racket – kuva (png-muodossa) [tehtävänpalautussivun kautta](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-1/kuva/).
-Voit katsella kurssilaisten koodaamia kuvia [kuvagallerian kautta]("https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-1/muidenkuvat/"). Voit myös kommentoida muiden kuvia kommenttinapin kautta.
+Voit katsella kurssilaisten koodaamia kuvia [kuvagallerian kautta](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-1/muidenkuvat/). Voit myös kommentoida muiden kuvia kommenttinapin kautta.
 Saat tallennettua kuvan png-muodossa DrRacketissä/WeSchemessä valitsemalla sen hiirellä ja valitsemalla hiiren oikealla näppäimellä *”Save image as”* ja antamalla kuvalle nimen ja .png – liitteen. Muista myös tallentaa koodisi *”File->Save definitions as”*, siitä voi olla iloa myöhemmin.
 
 *Vinkki:* Oppitunnilla koodattuja kuvia on kätevä jakaa muiden katsottavaksi esim. <a href="http://padlet.com" target="_blank">Padlet</a>-seinän kautta. Kuva liitetään Padlet-seinälle avaamalla uusi editori tuplaklikkaamalla seinää ja valitsemalla kameran kuva.
