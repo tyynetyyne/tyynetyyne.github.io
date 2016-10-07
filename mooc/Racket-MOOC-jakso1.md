@@ -40,6 +40,8 @@ Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_ku
 - Kuvakoodauksen sijaan voit harjoitella Racket-kielen alkeita myös kirjoittamalla peruslaskulausekkeita. 
 Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/peruslaskut_ja_laskujarjestys.html#%28part._racket_alkeet_peruslaskut_1%29" target="_blank">Peruslaskut</a>.
 
+*Huom! Kun lataat tehtävätiedoston ja avaat sen DrRacket:illä se on ”read only” tilassa etkä voi muokata sitä. Tallenna se ensin jonnekin (File->Save definitions as) niin saat muokkauksen käyttöön.*
+
 ###Malliratkaisut:
 
 Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.
