@@ -46,7 +46,7 @@ Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/peruslaskut_ja_l
 
 Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.
 
-####Perustehtävät (Kuvakoodaus 1):
+####Kuvakoodaus 1:
 
 Tehtävä | Malliratkaisut  | Malliratkaisut                                  
 -------                                              |
@@ -54,7 +54,7 @@ Japanin lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alke
 Suomen lippu | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/suomenlippu_esimerkkiratkaisuja.rkt)  | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/suomenlippu_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>	
 Auto | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/auto_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/auto_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
-####Lisätehtävät (Kuvakoodaus 2):
+####Kuvakoodaus 2:
 
 Tehtävä | Malliratkaisut |    Malliratkaisut                                  
 -------                                              |
@@ -62,7 +62,7 @@ Kukka | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat
 Neliö ympyrän paloista | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ympyrakuvio_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ympyrakuvio_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 Pikseliukko | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ukkeli_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ukkeli_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
-####Lisätehtävät (Peruslaskut):
+####Peruslaskut:
 Tehtävä | Malliratkaisut |  Malliratkaisut                                  
 -------                                              |
 Peruslaskut ja laskujärjestys| [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/peruslaskut/laskujarjestys_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/laskujarjestys_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
