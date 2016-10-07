@@ -132,4 +132,3 @@ Jos et keksi ideaa palautettavaksi koodaustehtäväksi, voit käyttää apuna t�
 Koska tehtävällä on määräpäivä, kysy rohkeasti apua Piazzalla heti kun jäät jossain kohtaa jumiin. Muista käyttä apuna myös Koodarin käsikirjaa. Jos tehtävän palauttamisessa tai vertaisarvioinnissa ilmenee teknisiä ongelmia, älä hermostu, ratkomme ne ja tarvittaessa jatkamme palautusaikaa.
 
 > Written with [StackEdit](https://stackedit.io/).
-

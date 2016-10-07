@@ -87,4 +87,3 @@ Saat tallennettua kuvan png-muodossa DrRacketissä/WeSchemessä valitsemalla sen
 **Siitä se koodarin ura lähtee käyntiin!**
 
 > Written with [StackEdit](https://stackedit.io/).
-
