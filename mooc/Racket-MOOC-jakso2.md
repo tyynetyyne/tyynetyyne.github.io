@@ -82,29 +82,21 @@ Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/perusteet_totuus
 
 Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.
 
-####Perustehtävät (Funktiot):
+####Funktiot:
 
 Tehtävä | Malliratkaisut  | Malliratkaisut                                  
 -------                                              |
 Pinta-alatehtävät A | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/pinta-alafunktiot_A_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/pinta-alafunktiot_A_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 Lämpötilat| [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/lampotilat_esimerkkiratkaisuja.rkt)  | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/lampotilat_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>	
-Värillinen teksti | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/varillinen_teksti_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/varillinen_teksti_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
-
-####Lisätehtävät (Funktiot):
-Tehtävä | Malliratkaisut |  Malliratkaisut                                  
--------                                              |
+Värillinen teksti | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/varillinen_teksti_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/varillinen_teksti_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>                                             |
 Särmiön levityskuva | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/sarmion_levityskuvat_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/sarmion_levityskuvat_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
-####Perustehtävät (Ehtolause):
+####Ehtolause:
 
 Tehtävä | Malliratkaisut |    Malliratkaisut                                  
 -------                                              |
 Kolmiotehtävät A  | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/kolmiot_A1_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_A1_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
-Robottisilmä | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/robottisilma_esimerkkiratkaisuja.rkt)  | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/robottisilma_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>	
-
-####Lisätehtävät (Ehtolause):
-Tehtävä | Malliratkaisut |  Malliratkaisut                                  
--------                                              |
+Robottisilmä | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/robottisilma_esimerkkiratkaisuja.rkt)  | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/robottisilma_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>	                                       |
 Pyöristäminen | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/pyoristys_esimerkkiratkaisuja.rkt)  |	<a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/pyoristys_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 
 Harjoittele materiaalin kanssa sen verran, että pystyt tekemään palautettavan koodaustehtävän.
