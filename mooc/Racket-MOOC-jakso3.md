@@ -1,4 +1,5 @@
 
+
 Tervetuloa – Racket kurssin 3. jaksolle
 ------------------------------------------------------
 ##1. Opiskeltava sisältö
@@ -20,9 +21,10 @@ nro  | Video  |    Linkki
 1.  | Funktion suunnitteluportaat (osa 1) (7:22 min) |  <a href="https://youtu.be/GJShFsMybL0" target="_blank">katso video</a>  
 2.  | Funktion suunnitteluportaat (osa 2) (6:53 min)  |	<a href="https://youtu.be/JWGYNNFy_6c" target="_blank">katso video</a>
 3.  | Boolean operaattorit (2:42 min)  |	<a href="https://youtu.be/7q5PqwFCb9Y" target="_blank">katso video</a>
-4.  | Valintalause (6:08 min)  | <a href="https://youtu.be/Adi3K9LyGFE target="_blank">katso video</a>
-5.  | Sovellukset : Piilokuva (4:58 min). Lataa videolla käytetty tehtävätiedosto: Piilokuva A |  <a href="https://youtu.be/dvA30L3ZeQg" target="_blank">katso video</a>  
-6.  | Sovellukset : Animaatio (5:10 min)  |	<a href="https://youtu.be/dvA30L3ZeQg" target="_blank">katso video</a>
+4.  | Valintalause (6:08 min)  | <a href="https://youtu.be/Adi3K9LyGFE" target="_blank">katso video</a>
+5.  | Sovellukset : Piilokuva (4:58 min). Lataa videolla käytetty tehtävätiedosto: [Piilokuva A](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/piilokuva_A.rkt) |  <a href="https://youtu.be/dvA30L3ZeQg" target="_blank">katso video</a>  
+6.  | Sovellukset : Animaatio (5:10 min)  |	<a href="https://youtu.be/Ur-oy0TOezo" target="_blank">katso video</a>
+7.  | Jakaminen WeScheme:llä (1:39 min) |	<a href="https://youtu.be/gxMe4siMB0g" target="_blank">katso video</a>
 
 ###Videoita täydentävät diat
 
@@ -95,7 +97,7 @@ Harjoittele materiaalin kanssa sen verran, että pystyt tekemään palautettavan
 
 Tällä viikolla palautettava koodaustehtävä on jonkinlainen animaatio tai hiirisovellus. Käytä tehtävän koodaamiseen ehto- tai valintalausetta, vertailuoperaattoreita ja/tai Boolean operaattoreita sekä vähintään yhtä omaa kuvafunktiota. Tällä viikolla sinun ei tarvitse aloittaa tyhjältä pöydältä vaan voit aivan hyvin katsoa mallia malliratkaisuista (Piilokuva A, Kuva-animaatio ja Ufo-animaatio) ja jatkaa siitä eteenpäin tehden oman sovellusversiosi.
 
-Tällä viikolla kaikki palauttavat valmiin sovelluksen WeScheme:n kautta. Saat itse päättää jaatko pelkän valmiin sovelluksen vait jaatko työn myös niin, että muut kurssilaiset pääsevät katsomaan koodiasi. Kannustan teitä jakamaan myös koodin, hyvät ideat kannttaa laittaa kiertoon niin me kaikki opimme enemmän!
+Tällä viikolla kaikki palauttavat valmiin sovelluksen WeScheme:n kautta. Saat itse päättää jaatko pelkän valmiin sovelluksen vait jaatko työn myös niin, että muut kurssilaiset pääsevät katsomaan koodiasi. Kannustan teitä jakamaan myös koodin, hyvät ideat kannattaa laittaa kiertoon niin me kaikki opimme enemmän!
 
 Palauta linkki sovellukseesi [tehtävänpalautussivun](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-3/jaksoteht%C3%A4v%C3%A4/) kautta. Olisi myös mukava, jos liittäisit mukaan myös yhden ruudunkaappauskuvan ohjelmastasi, niin palautusseinää olisi helpompi seurata (tietäisi minkä linkin on jo käynyt tutkimassa). Ruudunkaappauksen voit tehdä Windows:issä käyttämällä esim. leikkaustyökalua.
 
