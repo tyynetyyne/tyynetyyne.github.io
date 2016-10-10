@@ -11,3 +11,4 @@
 (define K5 (overlay/xy (right-triangle KOKO KOKO "solid" VÄRI) 0 0 K2))
 ;; --------------------------------------------------------------------
 ;; Kirjoita oma koodisi tämän rivin alapuolelle ja paina "run"
+
