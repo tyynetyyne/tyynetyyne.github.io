@@ -102,9 +102,8 @@ Tällä viikolla palautettava koodaustehtävä on jonkinlainen animaatio tai hii
 
 Tällä viikolla kaikki palauttavat valmiin sovelluksen WeScheme:n kautta. Saat itse päättää jaatko pelkän valmiin sovelluksen vait jaatko työn myös niin, että muut kurssilaiset pääsevät katsomaan koodiasi. Kannustan teitä jakamaan myös koodin, hyvät ideat kannattaa laittaa kiertoon niin me kaikki opimme enemmän!
 
-Palauta linkki sovellukseesi [tehtävänpalautussivun](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-3/jaksoteht%C3%A4v%C3%A4/) kautta. Olisi myös mukava, jos liittäisit mukaan myös yhden ruudunkaappauskuvan ohjelmastasi, niin palautusseinää olisi helpompi seurata (tietäisi minkä linkin on jo käynyt tutkimassa). Ruudunkaappauksen voit tehdä Windows:issä käyttämällä esim. leikkaustyökalua.
-
-Muista taas, että älä haukkaa liian isoa palaa, sovelluksen ei tarvitse olla iso tai monimutkainen. Älä vertaa omaa suoritusta muiden suorituksiin vaan ole ylpeä siitä mitä sait aikaan! Muista, että jos funktion koodaamisessa ”lyö tyhjää” käytä apuna funktion suunnitteluportaita!
+Palauta linkki sovellukseesi [tehtävänpalautussivun](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-3/jaksoteht%C3%A4v%C3%A4/) kautta. Olisi myös mukava, jos liittäisit mukaan myös yhden ruudunkaappauskuvan ohjelmastasi, niin palautusseinää olisi helpompi seurata (tietäisi minkä linkin on jo käynyt tutkimassa). Ruudunkaappauksen voit tehdä Windows:issä käyttämällä esim. leikkaustyökalua. 
+Voit katsella muiden töitä [animaatiogallerian kautta](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-3/muidenkuvat/). Muista taas, että älä haukkaa liian isoa palaa, sovelluksen ei tarvitse olla iso tai monimutkainen. Älä vertaa omaa suoritusta muiden suorituksiin vaan ole ylpeä siitä mitä sait aikaan! Muista, että jos funktion koodaamisessa ”lyö tyhjää” käytä apuna funktion suunnitteluportaita!
 
 ##4. Ongelmia?
 
