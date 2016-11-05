@@ -38,6 +38,8 @@ Tällä viikolla harjoittelemme Boolean operaattoreita ja valintalausetta ensin 
 ###A) Boolean operaattorit, valintalause ja funktion suunnitteluportaat
 
 ####Perustehtävät:
+- Tee funktio (predikaatti), joka tutkii onko syöte vaaditunlainen. Käytä apuna predikaatteja, vertailuoperaattoreita sekä Boolean operaattoreita.
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/perusteet_valintalauseet.html#%28part._racket_perusteet_syotteentarkistaminen%29" target="_blank">Syötteen tarkistaminen</a>.
 
 - Tee funktio taksimatkan hinnan laskemiseksi, käytä apuna valintalausetta
 Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/perusteet_valintalauseet.html#%28part._racket_perusteet_taksimatkalaskut%29" target="_blank">Taksimatkalaskut</a>.
@@ -78,6 +80,7 @@ Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratk
 
 Tehtävä | Malliratkaisut  | Malliratkaisut                                  
 -------                                              |
+Syötteen tarkistaminen | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/syotteen_tarkistaminen_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/syotteen_tarkistaminen_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 Taksimatkalaskut | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/taksimatkat_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/taksimatkat_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
 Kolmiotehtävät A2| [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/kolmiot_A2_esimerkkiratkaisuja.rkt)  | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_A2_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>	                                             |
 KolmiotehtävätB (Pythagoraan lause) | [DrRacket](http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/kolmiot_B_esimerkkiratkaisuja.rkt) | <a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_B_esimerkkiratkaisuja.html" target="_blank">WeScheme</a>
