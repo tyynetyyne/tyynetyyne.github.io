@@ -98,6 +98,8 @@ Tämän viikon palautustehtävä on Racket Turtle -kirjaston avulla piirretty ku
 
 Voit käyttää malliratkaisuja pohjana, muokata niitä eteenpäin ja tehdä oman versiosi. Kirjoita kuvan yhteyteen myös lyhyt kuvaus siitä miten kuvasi on saatu aikaan.
 
+Palauta koodisi [tehtävänpalautussivun](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-6/jaksoteht%C3%A4v%C3%A4/) kautta. Voit katsella ja pelata muiden palautuksia [palautusseinän](https://plus.cs.hut.fi/aapinen-racket/S2016/jakso-6/muidenkuvat/)kautta.
+
 *Pidä hauskaa, ole luova, leiki, kokeile, älä mieti check-expect:ejä vaan anna koodin nyt yllättää itsesi!*
 
 ##4. Ongelmia?
