@@ -20,7 +20,7 @@ nro  | Video  |    Linkki
 -------                                              |
 1.  | Funktion jakaminen osiin (10:49 min) |  <a href="https://youtu.be/l45YMjAc5r0" target="_blank">katso video</a>  
 2.  | Rekursio (11:44min)  |	<a href="https://youtu.be/et-l5eBAOaw" target="_blank">katso video</a>
-3.  | Rekursio akkumulaattorilla (8:16 min) [Tiedosto]("http://racket.koodiaapinen.fi/videot/tiedostot/5.2.racket_jatko_rekursio_akkumulaattori.rkt"), jota mukataan videolla. |	<a href="https://youtu.be/WHX9pTIM0oI" target="_blank">katso video</a>
+3.  | Rekursio akkumulaattorilla (8:16 min) [Tiedosto](http://racket.koodiaapinen.fi/videot/tiedostot/5.2.racket_jatko_rekursio_akkumulaattori.rkt), jota mukataan videolla. |	<a href="https://youtu.be/WHX9pTIM0oI" target="_blank">katso video</a>
 4.  | Lokaalit muuttujat (8:10 min) | <a href="https://youtu.be/-Oecr486bPg" target="_blank">katso video</a>
 5.  | Display-read – kirjasto |  <a href="https://youtu.be/yYeL0CTeQBM" target="_blank">katso video</a>  
 
