@@ -4,10 +4,9 @@
 (require teachpacks/racket-turtle)
 (require 2htdp/image)
 (require math) ; radians->degrees
-
-;; Tehtäväsarja 1
-;; --------------
+  
 ;; Tehtävä 3 a)
+;; ------------
 (define R 50)
 
 (define JAETTU-YMPYRÄ
@@ -23,7 +22,8 @@
 (draw JAETTU-YMPYRÄ)
 
 ;; Tehtävä 3 b)
-(define MÄÄRÄ 6)
+;; -----------
+(define MÄÄRÄ 5)
 (define X 200)
 (define Y 200)
 
@@ -43,78 +43,26 @@
 (draw SEKTORIT)
 
 ;; Tehtävä 3 c)
-(define r 30)
-(define h 100)
-(define POHJA (circle r "outline" "blue"))
-(define s (* 2 pi r))
-(define VAIPPA (rectangle s h "outline" "blue"))
+;; -----------
+(define VIIVAN-PITUUS (/ 50 (sin (degrees->radians 60))))
+(define KOLMION-KORKEUS (* 50 (tan (degrees->radians 60))))
 
-(define YMPYRÄLIERIÖN-LEVITYS
-  (list (stamper-on (list POHJA VAIPPA POHJA))
-        (pen-up)
-        (forward 10)
-        (forward (+ r (/ h 2)))
-        (forward (+ r (/ h 2)))))
-
-(draw YMPYRÄLIERIÖN-LEVITYS)
-
-;; toinen vaihtoehtoinen ratkaisu 
-(define YMPYRÄLIERIÖN-LEVITYS1
-  (list (stamper-on (list POHJA VAIPPA POHJA))
+(define JAETTU-KOLMIO
+  (list (stamper-on (triangle 100 "outline" "blue"))
         (pen-up)
         (go-to 200 200)
-        (go-to 200 (+ 200 r (/ h 2)))
-        (go-to 200 (+ 200 r h r))))
-
-(draw YMPYRÄLIERIÖN-LEVITYS1)
-
-;; kolmas vaihtoehtoinen ratkaisu
-(define PUOLIKAS-VAIPPA (/ s 2))
-  
-(define YMPYRÄLIERIÖN-LEVITYS2
-  (list (stamper-on POHJA)
-        (pen-up)
-        (forward 10)
-        (forward (+ h (* 2 r)))
         (stamper-off)
+        (forward (* 0.5 KOLMION-KORKEUS)) ; kärki
+        (pen-down)
         (turn-left 180)
-        (forward r)
-        (pen-down)
-        (turn-left 90)
-        (forward PUOLIKAS-VAIPPA)
-        (turn-right 90)
-        (forward h)
-        (turn-right 90)
-        (forward (* 2 PUOLIKAS-VAIPPA))
-        (turn-right 90)
-        (forward h)
-        (turn-right 90)
-        (forward PUOLIKAS-VAIPPA)))
-        
-(draw YMPYRÄLIERIÖN-LEVITYS2)
+        (forward VIIVAN-PITUUS) ; keskellä
+        (mirror-y-on)
+        (turn-right 60)
+        (forward VIIVAN-PITUUS)))
 
-;; neljäs vaihtoehtoinen ratkaisu
-(define YMPYRÄLIERIÖN-LEVITYS3
-  (list (stamper-on POHJA)
-        (pen-up)
-        (go-to 200 200)
-        (go-to 200 (+ 200 h (* 2 r)))
-        (stamper-off)
-        (go-to 200 (+ 200 h r))
-        (pen-down)
-        (go-to (+ 200 PUOLIKAS-VAIPPA)
-               (+ 200 h r))
-        (go-to (+ 200 PUOLIKAS-VAIPPA)
-               (+ 200 r))
-        (go-to (- 200 PUOLIKAS-VAIPPA)
-               (+ 200 r))
-        (go-to (- 200 PUOLIKAS-VAIPPA)
-               (+ 200 h r))
-        (go-to 200 (+ 200 h r))))
+(draw JAETTU-KOLMIO)
 
-(draw YMPYRÄLIERIÖN-LEVITYS3)
-
-;; Tehtävä 4 a)
+;; Tehtävä 4
 ;; ------------
 (define (ympyräsektorit r määrä x y)
   (list (stamper-on (circle r "outline" "blue"))
@@ -130,19 +78,6 @@
                       (turn-left (/ 360 määrä))))))
 
 (draw (ympyräsektorit 60 6 300 300))
-
-;; Tehtävä 4 b)
-;; ------------
-(define (ympyrälieriön-levitys r h)
-  (list (stamper-on (list (circle r "outline" "blue")
-                          (rectangle (* 2 pi r) h "outline" "blue")
-                          (circle r "outline" "blue")))
-        (pen-up)
-        (forward 10)
-        (forward (+ r (/ h 2)))
-        (forward (+ r (/ h 2)))))
-
-(draw (ympyrälieriön-levitys 50 150))
 
 ;; Tehtävä 5 a)
 ;; ------------
