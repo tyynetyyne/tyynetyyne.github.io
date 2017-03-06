@@ -3,7 +3,9 @@
 #reader(lib "htdp-intermediate-reader.ss" "lang")((modname racket_turtle1) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 (require teachpacks/racket-turtle)
 
-(draw
+(define KUVIO
   (list (forward 100)
         (turn-left 90)
         (forward 50)))
+
+(draw KUVIO)
