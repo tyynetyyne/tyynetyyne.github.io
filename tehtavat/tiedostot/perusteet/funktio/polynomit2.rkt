@@ -455,7 +455,7 @@
 0 0 24 3 2 #"))"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 0 17 3 54 #";; esimerkkipolynomin P:n kuvaaja (x:n arvoilla 0-25):"
+0 0 17 3 57 #";; esimerkkipolynomin P:n kuvaaja (x:n arvoilla -5 -> 5):"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 4 #"plot"

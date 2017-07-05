@@ -55,7 +55,7 @@
 1 0 10 #"text-box%\0"
 1 0 32 #"(lib \"text-snipclass.ss\" \"xml\")\0"
 1 0 1 6 #"wxloc\0"
-          0 0 97 0 1 #"\0"
+          0 0 98 0 1 #"\0"
 0 75 1 #"\0"
 0 10 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 0 9
 #"Standard\0"
@@ -343,6 +343,9 @@
 0 -1 -1 0 1 #"\0"
 0 75 12 #"Courier New\0"
 0.0 13 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 1 -1 0 1 #"\0"
+0 75 12 #"Courier New\0"
+0.0 18 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
 255 255 1 -1           0 293 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
@@ -452,7 +455,7 @@
 0 0 24 3 2 #"))"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 0 17 3 54 #";; esimerkkipolynomin P:n kuvaaja (x:n arvoilla 0-25):"
+0 0 17 3 57 #";; esimerkkipolynomin P:n kuvaaja (x:n arvoilla -5 -> 5):"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 4 #"plot"
