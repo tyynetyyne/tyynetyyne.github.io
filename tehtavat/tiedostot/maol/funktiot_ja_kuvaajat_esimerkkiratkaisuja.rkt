@@ -93,3 +93,40 @@
 (plot (list (points PISTEET2 -7 7 -10 16 "red" "outline" "pisteet")
             (function k -7 7 "blue" "k(x)"))
       "x" "y" "suoran sovittaminen pisteisiin")
+
+;; ----------
+;; Tehtävä 5
+;; ----------
+;; a)
+(define (h x)
+  (* 2 x x))
+
+;; b)
+(define (i x)
+  (+ (* 2 x x) -3))
+
+;; kuvaaja laskeutui alaspäin
+
+;; c)
+(define (j x)
+  (* -2 x x))
+
+;; kuvaaja kääntyi ylösalaisin
+
+(plot (list (function h -2 2 "red" "y=2x")
+            (function i -2 2 "blue" "y=2x-3")
+            (function j -2 2 "green" "y=-2x"))
+            "x" "y" "tehtävä 5")
+
+;; ----------
+;; Tehtävä 6
+;; ----------
+(define (para x)
+  (* 2 x x))
+
+;; pisteet vector ja range funktion avulla generoituna
+(define X (range -2 2.1 0.1))
+(define Y (map para X))
+
+(plot (points (map vector X Y) -2 2 -5 10 "red" "solid" "")
+      "x" "y" "tehtävä 6")
