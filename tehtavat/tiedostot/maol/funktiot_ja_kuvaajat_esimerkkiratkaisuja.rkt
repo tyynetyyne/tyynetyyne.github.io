@@ -1,7 +1,36 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-advanced-reader.ss" "lang")((modname kavelynopeudet_esimerkkiratkaisuja) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
+#reader(lib "htdp-advanced-reader.ss" "lang")((modname funktiot_ja_kuvaajat_esimerkkiratkaisuja) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
 (require teachpacks/plot)
+
+;; -----------
+;; Tehtävä 1
+;; -----------
+;; a)
+(define PISTEET (list '(-3 9)
+                      '(-2 4)
+                      '(-1 1)
+                      '(0 0)
+                      '(1 1)
+                      '(2 4)
+                      '(3 9)))
+
+(plot (points PISTEET -4 4 -1 10 "blue" "solid" "")
+      "x" "y" "tehtävä 1a")
+
+;; b)
+(define (f x)
+  (* -2 x))
+
+(plot (function f -5 5 "red" "y=-2x")
+      "x" "y" "tehtävä 1b")
+
+;; c)
+(define (g x)
+  (+ (* 1/3 x) -1))
+
+(plot (function g -5 5 "green" "y=1/3x-1")
+      "x" "y" "tehtävä 1c")
 
 ;; -----------
 ;; Tehtävä 2
@@ -29,10 +58,32 @@
             "aika (h)" "matka (km)" "Koulumatkat")
 
 ;; ----------
+;; Tehtävä 3
+;; ----------
+;; nouseva
+(define (k1 x)
+  (* 2 x))
+
+(define (k2 x)
+  (* -2 x))
+
+(define (k3 x)
+  -2)
+
+(plot (list (function k1 -5 5 "red" "")
+            (function k2 -5 5 "red" "")
+            (function k3 -5 5 "red" ""))
+            "x" "y" "tehtävä 3: kolmio")
+
+;; ----------
 ;; Tehtävä 4
 ;; ----------
 ;; pisteet
-(define PISTEET2 (list '(-6 -9) '(-3 -3) '(0 3) '(3 9) '(6 15)))
+(define PISTEET2 (list '(-6 -9)
+                       '(-3 -3)
+                       '(0 3)
+                       '(3 9)
+                       '(6 15)))
 
 ;; suoran yhtälö
 (define (k x)
