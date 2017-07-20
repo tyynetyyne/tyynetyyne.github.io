@@ -28,7 +28,7 @@
 (define (lottokone kpl valmiit)
   (if (<= kpl 0)
       valmiit  ; arvotut luvut kerätään tähän listaan
-      (let [(uusi-luku (add1 (random 1 40)))]
+      (let [(uusi-luku (add1 (random 40)))]
         (if (member? uusi-luku valmiit)
             (lottokone kpl valmiit) ; luku oli jo arvottu
             (lottokone (sub1 kpl)   ; lukua ei oltu arvottu
