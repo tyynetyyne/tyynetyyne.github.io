@@ -1,10 +1,10 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-reader.ss" "lang")((modname murtoluvut) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname murtoluvut-ratkaisut) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 ;;;;Racket 1
-;;2. Ohjelmointiympäristö
-;;2.3 Desimaaliluvut
-;;Tehtäväsarja 1: Laskuja desimaaliluvuilla
+;;4. Ohjelmointiympäristö
+;;4.1 Murto- ja prosenttiluvut
+;;Tehtäväsarja 1: Murtoluvuilla laskeminen
 
 ;;Tehtävä 1 a)
 (+ 1/6 3/6) ;Vastaus 2/3
