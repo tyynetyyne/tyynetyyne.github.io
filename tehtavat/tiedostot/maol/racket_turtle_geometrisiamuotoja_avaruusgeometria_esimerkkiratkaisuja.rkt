@@ -7,7 +7,7 @@
   
 ;; Tehtävä 5 a)
 ;; ------------
-(define ELLIPSI (ellipse 160 20 "outline" "blue"))
+(define ELLIPSI (ellipse 160 40 "outline" "blue"))
 
 (define YMPYRÄLIERIÖ
   (list (stamper-on ELLIPSI)
@@ -41,7 +41,7 @@
 
 ;; Tehtävä 5 c)
 ;; ------------
-(define VINOVIIVA (sqrt (/ (sqr 50) 2)))
+(define VINOVIIVA (sqrt (/ (sqr 100) 2)))
 
 (define KUUTIO
   (list (pen-up)
@@ -87,7 +87,7 @@
   (list (forward h)
         (turn-right 90)
         (pen-up)
-        (stamper-on (ellipse (* 2 r) 20 "outline" "blue"))
+        (stamper-on (ellipse (* 2 r) (/ r 2) "outline" "blue"))
         (forward r)
         (turn-right 90)
         (forward h)
@@ -98,13 +98,13 @@
         (pen-down)
         (forward h)))
 
-(draw (ympyrälieriö 30 80))
+(draw (ympyrälieriö 60 160))
 
 ;; Tehtävä 6 b)
 ;; ------------
 (define (ympyräkartio r h)
   (list (pen-up)
-        (stamper-on (ellipse (* 2 r) 20 "outline" "blue"))
+        (stamper-on (ellipse (* 2 r) (/ r 2) "outline" "blue"))
         (forward 10)
         (stamper-off)
         (forward h)
@@ -114,7 +114,7 @@
         (pen-down)
         (forward (sqrt (+ (* r r) (* h h))))))
 
-(draw (ympyräkartio 50 100))
+(draw (ympyräkartio 80 130))
 
 ;; Tehtävä 6 c)
 ;; ------------
