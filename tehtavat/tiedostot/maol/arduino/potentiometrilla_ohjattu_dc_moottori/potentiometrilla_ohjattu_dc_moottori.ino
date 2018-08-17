@@ -11,10 +11,11 @@ void setup() {
 void loop() {
   arvo = analogRead(POTIKKA);
   skaalattu_arvo = map(arvo, 0, 1023, 0, 255);
-
   Serial.print("Potikan lukema: ");
   Serial.println(arvo);
-  
   analogWrite(M_OHJAUS, skaalattu_arvo);
   delay(10);
 }
+
+
+
