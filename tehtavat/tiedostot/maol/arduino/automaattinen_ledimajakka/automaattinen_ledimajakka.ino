@@ -6,11 +6,13 @@ void setup()
 {
   pinMode(VALO, INPUT);
   pinMode(LED, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop()
 {
   arvo = analogRead(VALO);
+  Serial.println(arvo);
   if (arvo <= 550) {
     digitalWrite(LED, LOW);
   } else {
@@ -20,5 +22,3 @@ void loop()
     delay(1000); 
   }
 }
-
-
