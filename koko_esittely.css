@@ -103,7 +103,8 @@
 	}
 	nav ul li a:hover, nav ul li.active a{
 		background: #098aa1; /* #858649; /*#767740; /*#878E63;*/
-		color: #F1F0D1;
+		/*color: #F1F0D1;*/
+		color: white;
 	}
 	.banner_img {
 		width: 100%;
