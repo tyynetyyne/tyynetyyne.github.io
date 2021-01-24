@@ -1,4 +1,4 @@
-<style>
+
 	body {
 		background: hsl(174, 42%, 88%); /* #d3e7e6; */
 		font-family: Verdon, Tahoma, Arial, sans-serif;
@@ -21,7 +21,7 @@
 	}
 	/* unvisited link */
 	a:link {
-    color: #292916; 
+    color: #332c6e; 
 	}
 	/* visited link */
 	a:visited {
@@ -74,7 +74,7 @@
 	}
 	header {
 		width: 97%;
-		min-height: : 125px;
+		min-height: 125px;
 		padding-left: 2%;
 		padding-top: 10px;
 		padding-bottom: 5px;
@@ -229,4 +229,12 @@
 		}
 	}
 	
-	</style>
+	.smedia {
+		width:10%;
+	}
+
+	.centerlink {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}

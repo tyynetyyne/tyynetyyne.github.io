@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Racket MOOC</title>
+    <link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" data-aplus />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Clarence Taylor</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/profile.png" alt="" /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Materiaalista</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#part1">Jakso 1</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#part2">Jakso 2</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#part3">Jakso 3</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#part4">Jakso 4</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#part5">Jakso 5</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#part6">Jakso 6</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    koodiaapinen
+                    <span class="text-primary">MOOC</span>
+                </h1>
+                <div class="subheading mb-5">
+                    Itseopiskelumateriaalia Racket-ohjelmointiin
+                </div>
+                <p class="lead mb-5">Tervetuloa Racket-ohjelmoinnin pariin.</p>
+                <p class="lead mb-5">Tämä kurssimateriaali sisältää video-ohjeita, teoriadioja sekä harjoitustehtäviä
+                    malliratkaisuineen. Materiaali on alunperin luotu käytettäväksi opettajienkoulutuksessa Koodiaapinen
+                    MOOC-kursseilla ja sitä on muokattu tähän tarkoitukseen sopivaksi.</p>
+                <p class="lead mb-5">Tämä ei ole käynnissä oleva aktiivinen MOOC-kurssi eli ohjeissa mainittuja
+                    palautustehtäviä ei tarkisteta Koodiaapisen toimesta, eikä kurssista anneta suorituksia. Materiaali on tarkoitettu
+                    toimimaan oheis- ja tukimateriaalina racket.koodiaapinen.fi - käyttäjille. </p>    
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Experience-->
+        <section class="resume-section" id="part1">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Jakso 1</h2>
+                <div class="container">
+                    <h2 id="1-opiskeltava-sisältö">1. Opiskeltava sisältö</h2>
+
+                    <p>Ensimmäisen jakson tavoitteena on tutustua Racket-ohjelmointiin koodaamalla kuvia. Samalla opit
+                        käyttämään ohjelmointityökalua (DrRacket tai WeScheme). Ensimmäisellä videolla näytetään miten
+                        saat ohjelmointityökalut käyttöösi. Toisessa videossa esitellään lisää työkalujen käyttöä sekä
+                        käydään läpi Racket-kielen toimintalogiikkaa. Kolmas ja neljäs video esittelevät miten
+                        Racketillä piirretään kuvia ja viides video näyttää miten voit käyttää avuksesi muuttujia.
+                        Kuudes video on varattu niille, jotka haluavat oppia enemmän kuvien muokkaamisesta
+                        Racket-kielellä.</p>
+
+                    <p>Videot 2. – 6. kannattaa seurata niin, että katsot videota pienen pätkän ja sitten yrität tehdä
+                        itse saman mitä videolla juuri näytettiin. Koodaamaan kun ei valitettavasti opi vain videota
+                        katsomalla! Katso myös löydätkö videolla esitellyt asiat Koodarin käsikirjasta, josta löydä
+                        kaiken tarvitsemasi tiedon koodaustehtävien ratkaisemiseksi.</p>
+
+                    <p><em>HUOM! WeSchemessä ei tarvitse ottaa käyttöön kuvakirjastoa, eli tämä koodirivi on turha:
+                            (require 2htdp/image).</em></p>
+
+
+
+                    <h3 id="videot">Videot</h3>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>nro</th>
+                                <th>Video</th>
+                                <th>Linkki</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>Työkalut DrRacket ja WeScheme (2:54 min)</td>
+                                <td><a href="https://youtu.be/F5_ZIPsj0xI" target="_blank">katso video</a></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>Lausekkeet ja evaluointiin (5:57 min)</td>
+                                <td><a href="https://youtu.be/oW4G0kly9Iw" target="_blank">katso video</a></td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>Peruskuvioiden piirtäminen (7.52 min)</td>
+                                <td><a href="https://youtu.be/W7Aof-hnzkw" target="_blank">katso video</a></td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td>Kuvien yhdistely (7.18 min), <a
+                                        href="http://racket.koodiaapinen.fi/videot/tiedostot/2.2.racket_alkeet_kuvien_yhdistely.rkt">*.rkt
+                                        tiedosto</a>, jota jatketaan videolla</td>
+                                <td><a href="https://youtu.be/2EM6csmcBkE" target="_blank">katso video</a></td>
+                            </tr>
+                            <tr>
+                                <td>5.</td>
+                                <td>Muuttujien käyttäminen: define (5.55 min) <a
+                                        href="http://racket.koodiaapinen.fi/videot/tiedostot/2.3.racket_alkeet_maarittelyt_define.rkt">*.rkt
+                                        tiedosto</a>, jota jatketaan videolla</td>
+                                <td><a href="https://youtu.be/C5p7MaIQFoo" target="_blank">katso video</a></td>
+                            </tr>
+                            <tr>
+                                <td>6.</td>
+                                <td>Kuvien muokkaus (9.14 min) <a
+                                        href="http://racket.koodiaapinen.fi/videot/tiedostot/2.4.racket_alkeet_kuvien_muokkaus.rkt">*.rkt
+                                        tiedosto</a>, jota jatketaan videolla</td>
+                                <td><a href="https://youtu.be/gL5vw3xAx7g" target="_blank">katso video</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <p>Oheisessa PowerPoint – esityksessä kerrataan sekä täydennetään videoiden sisältöä. Diasarjan
+                        lopussa on ”debuggausosio”, jossa käydään läpi yleisimmät virheilmoitukset ja niiden syyt. Käytä
+                        sitä apuna kun teet harjoitustehtäviä.</p>
+
+
+
+                    <h3 id="diat">Diat</h3>
+
+                    <p><iframe src="//www.slideshare.net/slideshow/embed_code/key/L5jrWRf4iIBMW2" scrolling="no"
+                            allowfullscreen="" width="595" height="485"> </iframe> </p>
+                    <div> <strong> <a href="//www.slideshare.net/TiinaPartanen/racket-mooc-jakso-1"
+                                title="Racket MOOC - jakso 1" target="_blank">Racket MOOC - jakso 1</a> </strong> from
+                        <strong><a href="//www.slideshare.net/TiinaPartanen" target="_blank">Tiina Partanen</a></strong>
+                    </div>
+                    <p></p>
+
+
+
+                    <h2 id="2-harjoitustehtävät">2. Harjoitustehtävät</h2>
+
+                    <p>Harjoitustehtävistä on tarkoitettu tehtäväksi vähintään perustehtävät. Jos tunnet tarvetta
+                        harjoitella enemmän voit tehdä myös lisätehtäviä.</p>
+
+
+
+                    <h3 id="perustehtävät">Perustehtävät:</h3>
+
+                    <ul>
+                        <li>Koodaa Japanin lippu </li>
+                        <li>Koodaa Suomen lippu tai auto <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html"
+                                target="_blank">Kuvakoodaus 1</a>.</li>
+                    </ul>
+
+
+
+                    <h3 id="lisätehtävät">Lisätehtävät:</h3>
+
+                    <ul>
+                        <li>
+                            <p>Jos kuvienmuokkaus kiinnostaa (ja katsoit siihen liityvän videon 6.) voit harjoitella
+                                lisää näillä tehtävillä: <br>
+                                Avaa tehtävä: <a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/peruskuvat_ja_kuvien_yhdistely.html#%28part._racket_alkeet_peruskuviot_2%29"
+                                    target="_blank">Kuvakoodaus 2</a>.</p>
+                        </li>
+                        <li>
+                            <p>Kuvakoodauksen sijaan voit harjoitella Racket-kielen alkeita myös kirjoittamalla
+                                peruslaskulausekkeita. <br>
+                                Avaa tehtävä: <a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/peruslaskut_ja_laskujarjestys.html#%28part._racket_alkeet_peruslaskut_1%29"
+                                    target="_blank">Peruslaskut</a>.</p>
+                        </li>
+                    </ul>
+
+                    <p><em>Huom! Kun lataat tehtävätiedoston ja avaat sen DrRacket:illä se on ”read only” tilassa etkä
+                            voi muokata sitä. Tallenna se ensin jonnekin (File-&gt;Save definitions as) niin saat
+                            muokkauksen käyttöön.</em></p>
+
+                    <h3 id="malliratkaisut">Malliratkaisut:</h3>
+
+                    <p>Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.</p>
+
+
+
+                    <h4 id="kuvakoodaus-1">Kuvakoodaus 1:</h4>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tehtävä</th>
+                                <th>Malliratkaisut</th>
+                                <th>Malliratkaisut</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Japanin lippu</td>
+                                <td><a
+                                        href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/japaninlippu_esimerkkiratkaisuja.rkt">DrRacket</a>
+                                </td>
+                                <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/japaninlippu_esimerkkiratkaisuja.html"
+                                        target="_blank">WeScheme</a></td>
+                            </tr>
+                            <tr>
+                                <td>Suomen lippu</td>
+                                <td><a
+                                        href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/suomenlippu_esimerkkiratkaisuja.rkt">DrRacket</a>
+                                </td>
+                                <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/suomenlippu_esimerkkiratkaisuja.html"
+                                        target="_blank">WeScheme</a></td>
+                            </tr>
+                            <tr>
+                                <td>Auto</td>
+                                <td><a
+                                        href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/auto_esimerkkiratkaisuja.rkt">DrRacket</a>
+                                </td>
+                                <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/auto_esimerkkiratkaisuja.html"
+                                        target="_blank">WeScheme</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <h4 id="kuvakoodaus-2">Kuvakoodaus 2:</h4>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tehtävä</th>
+                                <th>Malliratkaisut</th>
+                                <th>Malliratkaisut</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kukka</td>
+                                <td><a
+                                        href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/kukka_esimerkkiratkaisuja.rkt">DrRacket</a>
+                                </td>
+                                <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kukka_esimerkkiratkaisuja.html"
+                                        target="_blank">WeScheme</a></td>
+                            </tr>
+                            <tr>
+                                <td>Neliö ympyrän paloista</td>
+                                <td><a
+                                        href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ympyrakuvio_esimerkkiratkaisuja.rkt">DrRacket</a>
+                                </td>
+                                <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ympyrakuvio_esimerkkiratkaisuja.html"
+                                        target="_blank">WeScheme</a></td>
+                            </tr>
+                            <tr>
+                                <td>Pikseliukko</td>
+                                <td><a
+                                        href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/kuvat/ukkeli_esimerkkiratkaisuja.rkt">DrRacket</a>
+                                </td>
+                                <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ukkeli_esimerkkiratkaisuja.html"
+                                        target="_blank">WeScheme</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <h4 id="peruslaskut">Peruslaskut:</h4>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tehtävä</th>
+                                <th>Malliratkaisut</th>
+                                <th>Malliratkaisut</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Peruslaskut ja laskujärjestys</td>
+                                <td><a
+                                        href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/peruslaskut/laskujarjestys_esimerkkiratkaisuja.rkt">DrRacket</a>
+                                </td>
+                                <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/laskujarjestys_esimerkkiratkaisuja.html"
+                                        target="_blank">WeScheme</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <h2 id="3-palautettava-koodaustehtävä">3. Palautettava koodaustehtävä</h2>
+
+                    <p>Katsele jakson aikana ympärillesi ja valitse itsellesi jokin sopivan helppo kuva koodattavaksi
+                        (esim. jokin logo tai lippu). Voit myös suunnitella kuvan kokonaan itse. Mieti mistä
+                        geometrisistä peruskuviosta kuva koostuu, millä tavalla muodot suhtautuvat toisiinsa. Koodaa
+                        kuva pala palalta (jaa ongelma osiin). Yhdistä palat vaihe vaiheelta yhdeksi kuvaksi. Käytä
+                        apuna muuttujia, joihin tallennat kuvan välivaiheita (define).</p>
+
+                    <p>Halutessasi voit käyttää apuna myös kuvanmuokkausfunktiota (esim. rotate, flip-horizontal).</p>
+
+                    <p>Ole luova ja kokeile rohkeasti! Tämän viikon tarkoitus on tutustua työkaluihin sekä materiaalin
+                        käyttämiseen, joten älä aseta rimaa liian korkealle!</p>
+
+                    <p>Saat tallennettua kuvan png-muodossa DrRacketissä/WeSchemessä valitsemalla sen hiirellä ja
+                        valitsemalla hiiren oikealla näppäimellä <em>”Save image as”</em> ja antamalla kuvalle nimen ja
+                        .png – liitteen. Muista myös tallentaa koodisi <em>”File-&gt;Save definitions as”</em>, siitä
+                        voi olla iloa myöhemmin.</p>
+
+                    <p>Vinkkivopetukseen: </p>
+                    <p>Oppitunnilla koodattuja kuvia on kätevä jakaa muiden katsottavaksi esim. <a
+                            href="http://padlet.com" target="_blank">Padlet</a>-seinän kautta. Kuva liitetään
+                        Padlet-seinälle avaamalla uusi editori tuplaklikkaamalla seinää ja valitsemalla kameran kuva.
+                    </p>
+                </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        <section class="resume-section" id="part2">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Jakso 2</h2>
+                <h2 id="1-opiskeltava-sisältö">1. Opiskeltava sisältö</h2>
+
+                <p>Racket-kurssin 2. jaksolla on käsitellään kaksi automatisointiajattelun keskeistä asiaa: A) funktiot
+                    sekä B) ehtolauseet.</p>
+
+                <p>A) Funktiot – osassa opettelemme suunnittelemaan, ohjelmoimaan sekä testaamaan omia funktioita.
+                    Funktioiden avulla voimme esittää sääntöjä yleisessä (abstraktissa) muodossa ja niiden toiminnan
+                    ymmärtäminen on erittäin tärkeää.</p>
+
+                <p>B) Ehtolauseet – osa käsittelee ehtolauseita ja sitä miten ne liittyvät funktioihin.</p>
+
+                <p>Tämän jakson materiaalit kannattaa opiskella osa kerrallaan, eli katso ensin funktioihin liittyvät
+                    videot (1 ja 2) ja tee sitten niihin liittyvät tehtävät. Katso tämän jälkeen ehtolauseisiin
+                    liittyvät videot (3 ja 4) ja tee niihin liittyvät tehtävät. Videoiden katsomisen ohella on hyvä itse
+                    koodata mukana niin saat paremman tuntuman siihen mistä on kyse.</p>
+
+                <p>Tällä viikolla on mukana myös animaatiovideoita, jotka selventävät funktion, ehtolauseen, evaluonnin
+                    sekä määrittelyjen toimintaa (animaatio kannattaa pistää pauselle, jos asiat tapahtuvat siinä liian
+                    nopeasti). Näiden animaatioiden tarkoitus on luoda ns. mentaalimalleja käsiteltävistä aiheista,
+                    jotta niiden ymmärtäminen helpottuisi.</p>
+
+                <p>Diasarjassa on tällä jaksolla paljon asiaa, täydentäviä esimerkkejä sekä vinkkejä palautettavaa
+                    jaksoharjoitusta ajatellen.</p>
+
+
+
+                <h3 id="videot">Videot</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nro</th>
+                            <th>Video</th>
+                            <th>Linkki</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Funktiot (osa 1): Funktion määrittely (10:37min)</td>
+                            <td><a href="https://youtu.be/9zAuinXk63Y" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Funktiot (osa 2): Funktion suunnittelu ja testaaminen (9:21min)</td>
+                            <td><a href="https://youtu.be/5EQYQ94S-UI" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Totuusarvot, predikaatit ja vertailuoperaattorit (5:01min)</td>
+                            <td><a href="https://youtu.be/_SQ0DSQ0Vp8" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Ehtolause (if) (8:35min)</td>
+                            <td><a href="https://youtu.be/g0lYnpwsc7o" target="_blank">katso video</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h3 id="animaatiot">Animaatiot</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nro</th>
+                            <th>Video</th>
+                            <th>Linkki</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Ympyrä-funktio (0:34min)</td>
+                            <td><a href="https://youtu.be/p6KMl79rMb0" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Pinta-ala-funktio (0:29min)</td>
+                            <td><a href="https://youtu.be/IK-I4dg6Gns" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Robottiauto-funktio ja ehtolause (0:27min)</td>
+                            <td><a href="https://youtu.be/ULGqPDqWC58" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Evaluointi (0:22min)</td>
+                            <td><a href="https://youtu.be/_laT_CGR6M4" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Määrittelyt (define) (0.46min)</td>
+                            <td><a href="https://youtu.be/VUNyOmKx-hw" target="_blank">katso video</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h3 id="videoita-täydentävät-diat">Videoita täydentävät diat</h3>
+
+                <p><iframe src="//www.slideshare.net/slideshow/embed_code/key/sEibk6CwKk9Pk9" scrolling="no"
+                        allowfullscreen="" width="595" height="485"> </iframe> </p>
+                <div> <strong> <a href="//www.slideshare.net/TiinaPartanen/racket-mooc-jakso-2"
+                            title="Racket MOOC - jakso 2" target="_blank">Racket MOOC - jakso 2</a> </strong> from
+                    <strong><a target="_blank" href="//www.slideshare.net/TiinaPartanen">Tiina Partanen</a></strong>
+                </div>
+                <p></p>
+
+
+
+                <h2 id="2-harjoitustehtävät">2. Harjoitustehtävät</h2>
+
+
+
+                <h3 id="a-funktiotehtävät">A) Funktiotehtävät:</h3>
+
+                <p>Harjoittele funktioiden määrittelemistä sekä testaamista seuraavien tehtävien avulla. Ensimmäisissä
+                    tehtävissä jatkat puolivalmista koodia eteenpäin.</p>
+
+                <p><em>Huom! Kun lataat tehtävätiedoston ja avaat sen DrRacket:illä se on ”read only” tilassa etkä voi
+                        muokata sitä. Tallenna se ensin jonnekin (File-&gt;Save definitions as) niin saat muokkauksen
+                        käyttöön.</em></p>
+
+
+
+                <h4 id="perustehtävät">Perustehtävät:</h4>
+
+                <ul>
+                    <li>
+                        <p>Tee funktioita pinta-alojen laskemiseksi <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_funktiot.html#%28part._racket_perusteet_pinta-alafunktioita_.A%29"
+                                target="_blank">Pinta-alatehtävät A</a>.</p>
+                    </li>
+                    <li>
+                        <p>Tee funktiot lämpötilojen muutamiseen eri lämpötila-asteikolta toiselle <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_funktiot.html#%28part._racket_perusteet_lampotilamuunnoksia%29"
+                                target="_blank">Lämpötilat</a>.</p>
+                    </li>
+                    <li>
+                        <p>Tee funktion avulla eri värisiä kirjaimia <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_funktiot.html#%28part._racket_perusteet_varikirjaimet%29"
+                                target="_blank">Värillinen teksti</a>.</p>
+                    </li>
+                </ul>
+
+
+
+                <h4 id="lisätehtävät">Lisätehtävät:</h4>
+
+                <ul>
+                    <li>Tee funktion avulla särmiön levityskuvia <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/perusteet_funktiot.html#%28part._racket_perusteet_sarmion_levityskuva%29"
+                            target="_blank">Särmiön levityskuva</a>.</li>
+                </ul>
+
+
+
+                <h3 id="b-ehtolausetehtävät">B) Ehtolausetehtävät:</h3>
+
+                <p>Harjoittele ehtolauseita sisältävien funktioiden määrittelemistä valitsemalla seuraavien tehtävien
+                    avulla. </p>
+
+
+
+                <h4 id="perustehtävät-1">Perustehtävät:</h4>
+
+                <ul>
+                    <li>
+                        <p>Tutustutaan kolmion ominaisuuksiin ehtolauseen ja funktion avulla <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_totuusarvot_ja_ehtolauseet.html#%28part._racket_perusteet_kolmiotehtavat_.A1%29"
+                                target="_blank">Kolmiotehtävät A1</a>.</p>
+                    </li>
+                    <li>
+                        <p>Harjoittele sisäkkäisiä ehtolauseita valon aallonpituuksien yhteydessä <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_totuusarvot_ja_ehtolauseet.html#%28part._racket_perusteet_robottisilma%29"
+                                target="_blank">Robottisilmä</a>.</p>
+                    </li>
+                </ul>
+
+                <h4 id="lisätehtävät-1">Lisätehtävät:</h4>
+
+                <ul>
+                    <li>Tutustutaan pyöristämiseen ja käytetään funktiota, jonka sisällä on ehtolause, jonka sisällä on
+                        laskulauseke <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/perusteet_totuusarvot_ja_ehtolauseet.html#%28part._racket_perusteet_pyoristaminen%29"
+                            target="_blank">Pyöristäminen</a>.</li>
+                </ul>
+
+
+
+                <h3 id="malliratkaisut">Malliratkaisut:</h3>
+
+                <p>Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.</p>
+
+
+
+                <h4 id="funktiot">Funktiot:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pinta-alatehtävät A</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/pinta-alafunktiot_A_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/pinta-alafunktiot_A_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Lämpötilat</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/lampotilat_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/lampotilat_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Värillinen teksti</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/varillinen_teksti_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/varillinen_teksti_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Särmiön levityskuva</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/funktio/sarmion_levityskuvat_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/sarmion_levityskuvat_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h4 id="ehtolause">Ehtolause:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kolmiotehtävät A1</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/kolmiot_A1_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_A1_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Robottisilmä</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/robottisilma_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/robottisilma_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Pyöristäminen</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/ehtolause/pyoristys_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/pyoristys_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <p>Harjoittele materiaalin kanssa sen verran, että pystyt tekemään palautettavan koodaustehtävän.</p>
+
+                <h2 id="3-palautettava-koodaustehtävä">3. Palautettava koodaustehtävä</h2>
+
+                <p>Tehtävänäsi on suunnitella, määritellä ja testata funktio, jossa käytetään ehtolausetta. Funktio voi
+                    esim. tuottaa kuvia tai laskea jotakin, sinä päätät mitä se tekee.</p>
+
+                <p>Kun teet funktiotasi, aloita määrittelemällä sen tarkoitus sekä esittelemällä sen nimi sekä sen
+                    määrittely- ja arvojoukot (syötteen tyypit ja paluuarvon tyyppi). Valitse funktiolle kuvaavat
+                    parametrien nimet (muuttujanimet) ja kirjoita funktion toteutus (koodi) käyttämällä parametreja.
+                    Käytä koodissasi myös ehtolausetta. Voit joko valita sellaisen funktion, jossa on kaksi eri
+                    ”toimintavaihtoehtoa” tai testata, että funktion parametrit ovat oikean tyyppisiä. Pääasia että
+                    käytät ehtolausetta jollakin tavalla. Testaa funktiosi jokainen haara kirjoittamalla sille
+                    check-expect -lauseke.</p>
+
+                <p>Vinkki opetukseen:</p>
+
+                <p>Opiskelijat voivat vertaisarvioida toistensa koodia eli testata toimiiko koodi ja onko se ohjeiden
+                    mukaisesti tehty. Parhaiten vertaisarviointi toimii, jos se tehdään nimettömästi, sekä arvioijat ja
+                    arvioitavat pysyvät anonyymeinä.</p>
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="part3">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Jakso 3</h2>
+                <h2 id="1-opiskeltava-sisältö">1. Opiskeltava sisältö</h2>
+
+                <p>Racket-kurssin jaksolla 3. syvennämme sekä funktioiden, että ehdollisen suorittamisen tietoja ja
+                    taitoja. Tutustumme valintalauseeseen sekä Boolean operaattoreihin. Opettelemme myös kirjoittamaan
+                    testitapaukset ENNEN funktion koodaamista. Tätä menetelmää kutsutaan ”funktion suunnitteluportaiksi”
+                    ja se auttaa ongelman ymmärtämistä ja helpottaa siten myös sen ratkaisemista. Tällä viikolla
+                    tutustumme myös Racket:in animaatio-ominaisuuksiin ja opimme jakamaan ohjelman WeScheme:n avulla.
+                </p>
+
+                <p>Tämän jakson tehtävät kannattaa tehdä kahdessa osiossa:</p>
+
+                <ul>
+                    <li>videot 1-4 ja tehtävät A</li>
+                    <li>videot 5-7 ja tehtävät B</li>
+                </ul>
+
+                <p>Kuuntele videot ja koodaa itse samalla esimerkkejä niin asiat avautuvat paremmin.</p>
+
+
+
+                <h3 id="videot">Videot</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nro</th>
+                            <th>Video</th>
+                            <th>Linkki</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Funktion suunnitteluportaat (osa 1) (7:22 min)</td>
+                            <td><a href="https://youtu.be/GJShFsMybL0" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Funktion suunnitteluportaat (osa 2) (6:53 min)</td>
+                            <td><a href="https://youtu.be/JWGYNNFy_6c" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Boolean operaattorit (2:42 min)</td>
+                            <td><a href="https://youtu.be/7q5PqwFCb9Y" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Valintalause (6:08 min)</td>
+                            <td><a href="https://youtu.be/Adi3K9LyGFE" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Sovellukset : Piilokuva (4:58 min). Lataa videolla käytetty tehtävätiedosto: <a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/piilokuva_A.rkt">Piilokuva
+                                    A</a></td>
+                            <td><a href="https://youtu.be/dvA30L3ZeQg" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Sovellukset : Animaatio (5:10 min)</td>
+                            <td><a href="https://youtu.be/Ur-oy0TOezo" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Jakaminen WeScheme:llä (1:39 min)</td>
+                            <td><a href="https://youtu.be/gxMe4siMB0g" target="_blank">katso video</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h3 id="videoita-täydentävät-diat">Videoita täydentävät diat</h3>
+
+                <p><iframe src="//www.slideshare.net/slideshow/embed_code/key/MKpCIYRTn5023D" scrolling="no"
+                        allowfullscreen="" width="595" height="485"> </iframe> </p>
+                <div> <strong> <a href="//www.slideshare.net/TiinaPartanen/racket-mooc-jakso-3"
+                            title="Racket MOOC - jakso 3" target="_blank">Racket MOOC - jakso 3</a> </strong> from
+                    <strong><a target="_blank" href="//www.slideshare.net/TiinaPartanen">Tiina Partanen</a></strong>
+                </div>
+                <p></p>
+
+
+
+                <h2 id="2-harjoitustehtävät">2. Harjoitustehtävät</h2>
+
+                <p>Tällä viikolla harjoittelemme Boolean operaattoreita ja valintalausetta ensin tavallisten funktioiden
+                    avulla. Koska logiikka on vaikea aihepiiri, käytämme funktion suunnitteluportaita, eli kirjoitamme
+                    testitapaukset ennen funktion koodaamista. Tämä helpottaa suuresti koodin kirjoittamista.
+                    Harjoittele Boolean operaattoreita, valintalauseita sekä funktion suunnitteluportaita seuraavien
+                    tehtävien avulla:</p>
+
+
+
+                <h3 id="a-boolean-operaattorit-valintalause-ja-funktion-suunnitteluportaat">A) Boolean operaattorit,
+                    valintalause ja funktion suunnitteluportaat</h3>
+
+
+
+                <h4 id="perustehtävät">Perustehtävät:</h4>
+
+                <ul>
+                    <li>
+                        <p>Tee funktio (predikaatti), joka tutkii onko syöte vaaditunlainen. Käytä apuna predikaatteja,
+                            vertailuoperaattoreita sekä Boolean operaattoreita. <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_valintalauseet.html#%28part._racket_perusteet_syotteentarkistaminen%29"
+                                target="_blank">Syötteen tarkistaminen</a>.</p>
+                    </li>
+                    <li>
+                        <p>Tee funktio taksimatkan hinnan laskemiseksi, käytä apuna valintalausetta <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_valintalauseet.html#%28part._racket_perusteet_taksimatkalaskut%29"
+                                target="_blank">Taksimatkalaskut</a>.</p>
+                    </li>
+                    <li>
+                        <p>Tutustu kolmion geometriaan Boolean operaattoreiden ja valintalauseen avulla <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_valintalauseet.html#%28part._racket_perusteet_kolmiotehtavat_.A2%29"
+                                target="_blank">Kolmiotehtävät A2</a>.</p>
+                    </li>
+                </ul>
+
+
+
+                <h4 id="lisätehtävät">Lisätehtävät:</h4>
+
+                <ul>
+                    <li>
+                        <p>Käytä Pythagoraan lausetta, Boolean operaattoreita sekä valintalausetta <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_valintalauseet.html#%28part._racket_perusteet_kolmiotehtavia_.B%29"
+                                target="_blank">Kolmiotehtävät B (Pythagoraan lause)</a>.</p>
+                    </li>
+                    <li>
+                        <p>Suunnittele funktio, joka tuottaa liikennevalot <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_valintalauseet.html#%28part._racket_perusteet_liikennevalot%29"
+                                target="_blank">Liikennevalot</a>.</p>
+                    </li>
+                </ul>
+
+
+
+                <h3 id="b-interaktiiviset-ohjelmat">B) Interaktiiviset ohjelmat</h3>
+
+                <p>Harjoittele Boolean operaattoreiden sekä valintalauseen käyttöä seuraavien interaktiivisten ohjelmien
+                    kanssa.</p>
+
+
+
+                <h4 id="perustehtävät-1">Perustehtävät</h4>
+
+                <ul>
+                    <li>
+                        <p>Harjoittele ohjelmoimaan logiikkaa, joka perustuu hiiren liikkeisiin ruudulla <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_sovellukset_universe.html#%28part._racket_perusteet_piilokuva_.A%29"
+                                target="_blank">Piilokuva A</a>.</p>
+                    </li>
+                    <li>
+                        <p>Harjoittele ohjelmoimaan logiikkaa, joka perustuu aikaan <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/perusteet_sovellukset_universe.html#%28part._racket_perusteet_kuva_animaatio%29"
+                                target="_blank">Kuva-animaatio</a>.</p>
+                    </li>
+                </ul>
+
+
+
+                <h4 id="lisätehtävät-1">Lisätehtävät</h4>
+
+                <ul>
+                    <li>Harjoittele ohjelmoimaan logiikkaa, jossa käsitellään x- tai y-koordinaattia <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/perusteet_sovellukset_universe.html#%28part._racket_perusteet_ufo_animaatio%29"
+                            target="_blank">Ufo-animaatio</a>.</li>
+                </ul>
+
+
+
+                <h3 id="malliratkaisut">Malliratkaisut:</h3>
+
+                <p>Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.</p>
+
+
+
+                <h4 id="boolean-operaattorit-ja-valintalause">Boolean operaattorit ja valintalause:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Syötteen tarkistaminen</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/syotteen_tarkistaminen_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/syotteen_tarkistaminen_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Taksimatkalaskut</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/taksimatkat_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/taksimatkat_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Kolmiotehtävät A2</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/kolmiot_A2_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_A2_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>KolmiotehtävätB (Pythagoraan lause)</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/kolmiot_B_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kolmiot_B_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Liikennevalot</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/liikennevalot_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/liikennevalot_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h4 id="interaktiiviset-ohjelmat">Interaktiiviset ohjelmat:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Piilokuva A</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/piilokuva_A_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/piilokuva_A_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Kuva-animaatio</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/kuva-animaatio_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kuva-animaatio_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Ufo-animaatio</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/perusteet/valintalause/ufo_laskeutuu_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ufo_laskeutuu_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <p>Harjoittele materiaalin kanssa sen verran, että pystyt tekemään palautettavan koodaustehtävän.</p>
+
+
+
+                <h2 id="3-palautettava-koodaustehtävä">3. Palautettava koodaustehtävä</h2>
+
+                <p>Tällä viikolla palautettava koodaustehtävä on jonkinlainen animaatio tai hiirisovellus. Käytä
+                    tehtävän koodaamiseen ehto- tai valintalausetta, vertailuoperaattoreita ja/tai Boolean
+                    operaattoreita sekä vähintään yhtä omaa kuvafunktiota. Tällä viikolla sinun ei tarvitse aloittaa
+                    tyhjältä pöydältä vaan voit aivan hyvin katsoa mallia malliratkaisuista (Piilokuva A, Kuva-animaatio
+                    ja Ufo-animaatio) ja jatkaa siitä eteenpäin tehden oman sovellusversiosi.</p>
+
+                <p>Vinkki opetukseen:</p>
+                <p>Sovellus kannattaa jakaa WeScheme:n kautta esim. Padlet-seinän kautta. WeScheme antaa päättää
+                    jaakaako pelkän valmiin sovelluksen vait koko työn niin, että myös koodia pääsee katsomaan.
+                    Oppilaita kannattaa kannustaa jakamaan myös koodi, koska hyvät ideat kannattaa laittaa kiertoon näin
+                    koko ryhmä oppii koko ryhmä oppii enemmän!</p>
+
+                <p>P.S. Ohjelmointi voi alussa tuntua vaikealta, koska oppimiskäyrä on ”ei lineaarinen”. Tässä hyvä <a
+                        href="https://medium.com/@sunils34/learning-to-code-is-non-linear-bf12dd6e1f4c?_hsenc=p2ANqtz-_kJJc3R3lTzdCsQ2TC6YPDC-7o3sSK1PJQD9khTtmOriTezmqJuNzRryl1OW88LZbTPpOZO3y2o3DV-A5QMFj5yL9Miw&amp;_hsmi=23309419#.w4bqn7772">artikkeli</a>
+                    aiheesta!</p>
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Interests-->
+        <section class="resume-section" id="part4">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Jakso 4</h2>
+                <h2 id="1-opiskeltava-sisältö">1. Opiskeltava sisältö</h2>
+
+                <p>Racket-kurssin jaksolla 4. opimme tekemään hieman isomman sovelluksen, jossa toiminnallisuus
+                    toteutetaan useamman funktion avulla. Opimme myös käyttämään rekursiivisia funktioita, jotka
+                    kutsuvat itse itseään ja näin pystyvät ratkaisemaan ongelman paloissa tai toteuttamaan
+                    toiminnallisuutta, joka vaatii toistoja tai silmukan. Käymme läpi kaksi erilaista tapaa kirjoittaa
+                    rekursiota: alkeistapauksiin perustuvan sekä akkumulaattorin käyttöön perustuvan. Tutustumme myös
+                    siihen mitä ovat ns. sivuvaikutukset.</p>
+
+                <p>Tämän jakson tehtävät kannattaa tehdä kahdessa osiossa:</p>
+
+                <ul>
+                    <li>videot 1-3 ja tehtävät A</li>
+                    <li>videot 4-5 ja tehtävät B</li>
+                </ul>
+
+                <p>Kuuntele videot ja koodaa itse samalla esimerkkejä niin asiat avautuvat paremmin.</p>
+
+
+
+                <h3 id="videot">Videot</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nro</th>
+                            <th>Video</th>
+                            <th>Linkki</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Funktion jakaminen osiin (10:49 min)</td>
+                            <td><a href="https://youtu.be/l45YMjAc5r0" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Rekursio (11:44min)</td>
+                            <td><a href="https://youtu.be/et-l5eBAOaw" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Rekursio akkumulaattorilla (8:16 min) <a
+                                    href="http://racket.koodiaapinen.fi/videot/tiedostot/5.2.racket_jatko_rekursio_akkumulaattori.rkt">Tiedosto</a>,
+                                jota mukataan videolla.</td>
+                            <td><a href="https://youtu.be/WHX9pTIM0oI" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Lokaalit muuttujat (8:10 min)</td>
+                            <td><a href="https://youtu.be/-Oecr486bPg" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Display-read – kirjasto</td>
+                            <td><a href="https://youtu.be/yYeL0CTeQBM" target="_blank">katso video</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h3 id="videoita-täydentävät-diat">Videoita täydentävät diat</h3>
+
+                <p><iframe src="//www.slideshare.net/slideshow/embed_code/key/25nSNhMJvabxjp" scrolling="no"
+                        allowfullscreen="" width="595" height="485"> </iframe> </p>
+                <div> <strong> <a href="//www.slideshare.net/TiinaPartanen/racket-mooc-kevt-2016-jakso-4"
+                            title="Racket MOOC (kevät 2016) - jakso 4" target="_blank">Racket MOOC (kevät 2016) - jakso
+                            4</a> </strong> from <strong><a target="_blank"
+                            href="//www.slideshare.net/TiinaPartanen">Tiina Partanen</a></strong> </div>
+                <p></p>
+
+
+
+                <h2 id="2-harjoitustehtävät">2. Harjoitustehtävät</h2>
+
+
+
+                <h3 id="a-rekursio">A) Rekursio</h3>
+
+                <p>Harjoittelemme ensin kuvien ohjelmointia rekursiivisten funktioiden avulla. Voit valita käytätkö
+                    alkeistapauksiin perustuvaa vai akkumulaattoria käyttävää rekursiota. Molempia ei tarvitse oppia
+                    käyttämään aktiivisesti, kunhan tiedät ja tunnistat myös sen toisen tavan, koska sellaista koodia
+                    voi tulla vastaan vertaisarvioinnissa.</p>
+
+
+
+                <h4 id="perustehtävät">Perustehtävät:</h4>
+
+                <ul>
+                    <li>Koodaa tikkataulu käyttämällä rekursiivista funktiota <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/jatko_rekursio.html#%28part._racket_jatko_rekursio_kuvatehtavat%29"
+                            target="_blank">Tikkataulu</a>.</li>
+                    <li>Koodaa ruudukko käyttämällä kahta rekursiivista funktiota <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/jatko_rekursio.html#%28part._racket_jatko_rekursio_kuvatehtavat%29"
+                            target="_blank">Ruudukko</a>.</li>
+                </ul>
+
+
+
+                <h4 id="lisätehtävät">Lisätehtävät:</h4>
+
+                <ul>
+                    <li>
+                        <p>Koodaa pienenevät pallot käyttämällä rekursiivista funktiota <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_rekursio.html#%28part._racket_jatko_rekursio_kuvatehtavat%29"
+                                target="_blank">Pienenevät pallot</a>.</p>
+                    </li>
+                    <li>
+                        <p>Koodaa kuvio pyörittämällä epäkeskoa kuviota rekursiivisesti <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_rekursio.html#%28part._epakesko%29"
+                                target="_blank">Epäkesko</a>.</p>
+                    </li>
+                    <li>
+                        <p>Tutustu rekursion käyttöön fraktaaleissa sierpinskin kolmion koodin avulla (katso tässä
+                            kohtaa video nro. 4). <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_rekursio.html#%28part._fraktaalit%29"
+                                target="_blank">Fraktaalit</a>.</p>
+                    </li>
+                </ul>
+
+                <p>Yritä ensin itse, mutta jos ei onnistu katso malliratkaisut täältä (5. Rekursio). Tämän viikon
+                    tehtävät ovat vaikeita, joten katso vaikka ensin yksi malliratkaisu ja yritä sitä matkimalla tehdä
+                    jokin toinen kuvio.</p>
+
+
+
+                <h3 id="b-interaktiiviset-ohjelmat">B) Interaktiiviset ohjelmat</h3>
+
+                <p>Tässä osiossa tutustutaan sivuvaikutusten käyttöön silmukassa. Tehtävissä käytetään display-read
+                    -kirjastoa.</p>
+
+
+
+                <h4 id="perustehtävät-1">Perustehtävät</h4>
+
+                <ul>
+                    <li>
+                        <p>Harjoittele silmukan käyttöä tekemällä raketin lähtölaskenta <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_sovellukset_display_read.html#%28part._racket_jatko_lahtolaskenta%29"
+                                target="_blank">Lähtölaskenta</a>.</p>
+                    </li>
+                    <li>
+                        <p>Harjoittele silmukan käyttöä kysymällä täydentäviä sanoja tarinaan yhä uudelleen ja uudelleen
+                            <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_sovellukset_display_read.html#%28part._racket_jatko_tarina%29"
+                                target="_blank">Tarina</a>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Harjoittele silmukkaa sekä lokaalien muuttujien käyttämistä koodaamalla laskuautomaatti <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_sovellukset_display_read.html#%28part._racket_jatko_laskuautomaatti%29"
+                                target="_blank">Laskuautomaatti</a>.</p>
+                    </li>
+                </ul>
+
+
+
+                <h4 id="lisätehtävät-1">Lisätehtävät</h4>
+
+                <ul>
+                    <li>
+                        <p>Harjoittele lisää silmukan sekä lokaalien muuttujien käyttöä koodaamalla kertolaskupelin <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_sovellukset_display_read.html#%28part._racket_jatko_kertotaulupeli%29"
+                                target="_blank">Kertolaskupeli</a>.</p>
+                    </li>
+                    <li>
+                        <p>Harjoittele lisää silmukan sekä lokaalien muuttujien käyttöä koodaamalla arvaa numero - pelin
+                            <br>
+                            Avaa tehtävä: <a
+                                href="http://racket.koodiaapinen.fi/tehtavat/jatko_sovellukset_display_read.html#%28part._racket_jatko_arvaa_numero%29"
+                                target="_blank">Arvaa numero -peli</a>.
+                        </p>
+                    </li>
+                </ul>
+
+                <p>Erityisesti lisätehtävät ovat tällä viikolla sen verran vaativia, että voit koodaamisen sijaan katsoa
+                    suoraan malliratkaisuja ja pohtia ymmärrätkö mitä koodissa tapahtuu, jotta pystyt soveltamaan sitä
+                    jakson palautustehtävässä.</p>
+
+                <h3 id="malliratkaisut">Malliratkaisut:</h3>
+
+                <p>Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.</p>
+
+
+
+                <h4 id="rekursio">Rekursio:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tikkataulu</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/tikkataulu_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/tikkataulu_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Ruudukko</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/ruudukko_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/ruudukko_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Pienenevät pallot</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/pienenevat_pallot_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/pienenevat_pallot_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Epäkesko</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/epakesko_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/epakesko_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Fraktaalit</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/sierpinski_nelio_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/sierpinski_kolmio_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h4 id="interaktiiviset-ohjelmat">Interaktiiviset ohjelmat:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lähtölaskenta</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/lahtolaskenta_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/lahtolaskenta_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Tarina</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/tarina_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/tarina_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Laskuautomaatti</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/laskuautomaatti_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/laskuautomaatti_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Kertolaskupeli</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/kertolaskupeli_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/kertolaskupeli_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Arvaa numero -peli</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/rekursio/arvaa_numero_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/arvaa_numero_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <p>Harjoittele materiaalin kanssa sen verran, että pystyt tekemään palautettavan koodaustehtävän.</p>
+
+
+
+                <h2 id="3-palautettava-koodaustehtävä">3. Palautettava koodaustehtävä</h2>
+
+                <p>Tämän jakson palautettava harjoitustyö on sovellus, joka käyttää rekursiota sekä sivuvaikutuksia.
+                    Ohjelman tulee pyytää käyttäjältä syötteitä ja näyttää ohjelman tuottama tulos käyttäjälle
+                    display-read kirjaston avulla, käyttää yhtä rekursiivista funkiota sekä yhtä apufunktiota.
+                    Apufunktiot voivat laskea jotain, piirtää jotain tai tehdä molempia. Sovellus, jonka teet voi olla
+                    laskuautomaatti (kysyy käyttäjältä lähtöarvot), se voi olla pieni peli, joka testaa
+                    päässälaskutaitoa (arpoo luvut ja kysyy käyttäjältä vastausta, jonka se tarkistaa) tai se voi
+                    piirtää jonkin kuvan rekursiivisesti (käyttäjä päättää mittasuhteet, toistojen määrän, värin tms.).
+                    Pidä huolta siitä, että rekursiivisessa funktiossasi on jokin lopetusehto! <br>
+                    Koska käyttäjä voi antaa vääränlaisia syötteitä, muista testata syötteet ennen kuin niitä käytetään
+                    ja anna virhetilanteessa käyttäjälle ohjeita oikeanlaisesta syötteestä. Testaa apufunktiosi käyttäen
+                    check-expect:iä mutta muista että sivuvaikutuksia (tässä kaikki display-read kirjaston funktiot)
+                    sisältäviä koodin osia ei voi testata muuten kuin ajamalla koodia ja katsomalla toimiiko se. Tätä
+                    palautustehtävää varten voit katsoa mallia kaikista tämän jakson malliratkaisuista ja käyttää
+                    malliratkaisuja pohjana omalle sovelluksellesi.</p>
+
+                <p>Vinkki opetukseen: </p>
+                <p>
+                    Tämän jakson palautustehtävän soveltuu vertaisarvioitavaksi samalla tavalla kuin jakson 2 tehtävä.
+                    Jos ohjelman aihepiirin keksiminen tuottaa ongelmia, mieti millaisesta ohjelmasta voisi olla sinulle
+                    tai oppilaillesi hyötyä…</p>
+                </p>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Awards-->
+        <section class="resume-section" id="part5">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Jakso 5</h2>
+                <h2 id="1-opiskeltava-sisältö">1. Opiskeltava sisältö</h2>
+
+                <p>Racket-kurssin jaksolla 5. ja 6. opimme käsittelemään tietoa listojen muodossa. Listat mahdollistavat
+                    tehokkaan tavan käsitellä isoa määrää tietoa pienellä määrällä koodia. Listoja voidaan käsitellä
+                    kahdella eri tavalla: rekursiivisten funktioiden avulla (jakso 5.) tai Higher Order – funktioiden
+                    avulla (jakso 6.). Jaksossa 5. opitaan lisäämään kuvia koodin sekaan ja jaksossa 6. opitaan
+                    piirtämään Turtle – grafiikkakuvia.</p>
+
+                <p>Voit tehdä joko molemmat jaksot (5. ja 6.) tai valita vain toisen. Koska molemmat jaksot käsittelevät
+                    listoja, riittää että tutustut listoihin yhden jakson puitteissa (kurssi on suunniteltu niin, että
+                    yhden jakson voi halutessaan jättää väliin).</p>
+
+                <p>Tämän jakson tehtävät voidaan tehdä kahdessa eri osassa:</p>
+
+                <ul>
+                    <li>videot 1-3 ja tehtävät A</li>
+                    <li>video 4 ja tehtävät B</li>
+                </ul>
+
+                <p>Kuuntele videot ja koodaa itse samalla esimerkkejä niin asiat avautuvat paremmin.</p>
+
+
+
+                <h3 id="videot">Videot</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nro</th>
+                            <th>Video</th>
+                            <th>Linkki</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Listat (6:19 min)</td>
+                            <td><a href="https://youtu.be/fDkCXReFpOk" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Listan käsittely rekursiivinen (osa 1) (5:52 min)</td>
+                            <td><a href="https://youtu.be/kU0gT9uNIgY" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Rekursio akkumulaattorilla (8:16 min)</td>
+                            <td><a href="https://youtu.be/ysYOO4w472c" target="_blank">katso video</a></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Tietokilpailupeli listan avulla (12:01 min)</td>
+                            <td><a href="https://youtu.be/iXJuAiZu5cg" target="_blank">katso video</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h3 id="videoita-täydentävät-diat">Videoita täydentävät diat</h3>
+
+                <p><iframe src="//www.slideshare.net/slideshow/embed_code/key/yo8b9UpvhvHPry" scrolling="no"
+                        allowfullscreen="" width="595" height="485"> </iframe> </p>
+                <div> <strong> <a href="//www.slideshare.net/TiinaPartanen/racket-mooc-jakso-5"
+                            title="Racket MOOC - jakso 5" target="_blank">Racket MOOC - jakso 5</a> </strong> from
+                    <strong><a target="_blank" href="//www.slideshare.net/TiinaPartanen">Tiina Partanen</a></strong>
+                </div>
+                <p></p>
+
+
+
+                <h2 id="2-harjoitustehtävät">2. Harjoitustehtävät</h2>
+
+
+
+                <h3 id="a-listat-ja-rekursio">A) Listat ja rekursio</h3>
+
+                <p>Harjoittelemme ensin listan ”syömistä” rekursiivisesti:</p>
+
+
+
+                <h4 id="perustehtävät">Perustehtävät:</h4>
+
+                <ul>
+                    <li>Harjoittele listan ja rekursion käyttöä koodaamalla funktio, joka laskee keskiarvon tai hinnan
+                        alennukse/korotuksen <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/jatko_listat.html#%28part._racket_jatko_rekursiiviset_listat%29"
+                            target="_blank">Keskiarvo, hinnan alennus/korotus</a>.</li>
+                    <li>Harjoittele listan ja rekursion käyttöä koodaamalla funktio, joka arpoo uudet työparit luokan
+                        oppilaista <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/jatko_listat.html#%28part._racket_jatko_rekursiiviset_listat%29"
+                            target="_blank">Uudet työparit</a>.</li>
+                </ul>
+
+
+
+                <h4 id="lisätehtävät">Lisätehtävät:</h4>
+
+                <ul>
+                    <li>Harjoittele listan ja rekursion käyttöä koodaamalla funktio, joka piirtää Death Star:in <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/jatko_listat.html#%28part._racket_jatko_listat_kuvat%29"
+                            target="_blank">Death Star</a>.</li>
+                </ul>
+
+
+
+                <h3 id="b-interaktiiviset-ohjelmat">B) Interaktiiviset ohjelmat</h3>
+
+                <p>Tässä osiossa tutustutaan siihen miten listoja voi käyttää interaktiivisten ohjelmien kanssa.</p>
+
+
+
+                <h4 id="perustehtävät-1">Perustehtävät:</h4>
+
+                <ul>
+                    <li>Harjoittele listan ja rekursion käyttöä koodaamalla peli, jossa kysymykset ja oikeat vastaukset
+                        ovat listan muodossa <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/jatko_sovellukset_display_read.html#%28part._racket_jatko_tunnistuspeli%29"
+                            target="_blank">Tunnistuspeli</a>.</li>
+                </ul>
+
+
+
+                <h4 id="lisätehtävät-1">Lisätehtävät:</h4>
+
+                <ul>
+                    <li>Harjoittele listan ja rekursion käyttöä koodaamalla peli, jossa kysymykset ja vastausvaihtoehdot
+                        ovat listan muodossa <br>
+                        Avaa tehtävä: <a
+                            href="http://racket.koodiaapinen.fi/tehtavat/jatko_sovellukset_display_read.html#%28part._racket_jatko_valintapeli%29"
+                            target="_blank">Valintapeli</a>.</li>
+                </ul>
+
+                <p>Jos tuntuu, että pelitehtävien tekeminen on liian haastavaa voit tutustua malliratkaisuihin suoraan
+                    ja lähteä muokkaamaan niiden pohjalta palautettavaa koodaustehtävää.</p>
+
+
+
+                <h3 id="malliratkaisut">Malliratkaisut:</h3>
+
+                <p>Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.</p>
+
+
+
+                <h4 id="rekursio">Rekursio:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Keskiarvo</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/keskiarvo_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/keskiarvo_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Hinnan alennus/korotus</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/laske_uudet_hinnat_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/laske_uudet_hinnat_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Arvo työparit</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/arvo_parit_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/arvo_parit_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Death Star</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/death_star_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/death_star_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+                <h4 id="interaktiiviset-ohjelmat">Interaktiiviset ohjelmat:</h4>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tehtävä</th>
+                            <th>Malliratkaisut</th>
+                            <th>Malliratkaisut</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tunnistuspeli</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/tunnistuspeli_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/tunnistuspeli_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                        <tr>
+                            <td>Valintapeli</td>
+                            <td><a
+                                    href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/valintapeli_esimerkkiratkaisuja.rkt">DrRacket</a>
+                            </td>
+                            <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/valintapeli_esimerkkiratkaisuja.html"
+                                    target="_blank">WeScheme</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <p>Harjoittele materiaalin kanssa sen verran, että pystyt tekemään palautettavan koodaustehtävän.</p>
+
+
+
+                <h2 id="3-palautettava-koodaustehtävä">3. Palautettava koodaustehtävä</h2>
+
+                <p>Tämän jakson palautettava harjoitustyö on jonkinlainen tietokilpailupeli (tunnistuspeli, valintapeli)
+                    tai muu ohjelma, jossa käytetään listoja, kuvia sekä rekursiota. Voit myös tehdä sellaisen pelin,
+                    jossa on molempia kysymystyyppejä sekaisin (haastavampi!). Jaa ohjelmasi WeScheme:n kautta (katso
+                    ohje kuvien siirtämiseen Google-driveen viimeiseltä videolta).</p>
+
+                <p>Vinkki opetukseen:</p>
+                <p>Kun ohjelmat jaetaan Padlet-seinän kautta koko ryhmä pääseen pelaamaan muiden palauttamia pelejä.</p>
+
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Awards-->
+        <section class="resume-section" id="part6">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Jakso 6</h2>
+                <h2 id="1-opiskeltava-sisältö">1. Opiskeltava sisältö</h2>
+
+<p>Tällä viikolla jatkamme listojen opiskelua ja lisäämme mukaan Turtle grafiikan sekä Higher Order – funktiot. Racket Turtle:a voi käyttää listojen, rekursion sekä Higher Order – funktioiden opettamiseen mutta myös tasogeometrian käsitteiden opettamiseen (mittasuhteet, monikulmioiden kulmat, koordinaatisto, peilaus jne.). Higher Order – funktiot ovat puolestaan algoritmien ”moottorisaha” (rekursio on se ”käsisaha”). Niiden oppiminen voi aluksi tuntua hieman hankalalta mutta ne tarjoavat erittäin tehokkaan ja lyhyen tavan kirjoittaa algoritmeja ja niiden toimintalogiikka soveltuu hyvin matemaattiseen ajatteluun.</p>
+
+<p>Ensimmäinen video esittelee Racket Turtlen perustoiminnot. Toinen video esittelee Higher Order – funktiot eli yhden kätevän tavan tehdä käsitellä listamuotoista tietoa. Viimeinen video esittelee miten Racket Turtlella voi tehdä hienompia kuvia Higher Order – funktioiden avulla (toki nämä voisi tehdä myös rekursiivisen funktion avulla).</p>
+
+<p>Racket Turtle:en toimintaan voit videoiden ja diojen lisäksi tutustua <a href="http://racket.koodiaapinen.fi/manuaali/racket_turtle.html">Koodarin käsikirjan</a> avulla. Erityisen hyödyllisiä ovat <a href="http://racket.koodiaapinen.fi/manuaali/racket_turtle_esimerkkeja.html">Turtle esimerkit</a>.</p>
+
+
+
+<h3 id="videot">Videot</h3>
+
+<table>
+<thead>
+<tr>
+  <th>nro</th>
+  <th>Video</th>
+  <th>Linkki</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>1.</td>
+  <td>
+Racket Turtle alkeet (16:28 min)
+</td>
+  <td><a href="https://youtu.be/L1jjdGe_j6k" target="_blank">katso video</a></td>
+</tr>
+<tr>
+  <td>2.</td>
+  <td>
+Higher Order – funktiot (9:30 min)
+</td>
+  <td><a href="https://youtu.be/jFBZp1eVa3I" target="_blank">katso video</a></td>
+</tr>
+<tr>
+  <td>3.</td>
+  <td>
+Racket Turtle jatko (7:12 min)
+</td>
+  <td><a href="https://youtu.be/shvc7xtg3cw" target="_blank">katso video</a></td>
+</tr>
+</tbody></table>
+
+
+
+
+<h3 id="videoita-täydentävät-diat">Videoita täydentävät diat</h3>
+
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/a8hFc3Jp1NPrBz" scrolling="no" allowfullscreen="" width="595" height="485"> </iframe> </p><div> <strong> <a href="//www.slideshare.net/TiinaPartanen/racket-mooc-jakso-6" title="Racket MOOC - jakso 6" target="_blank">Racket MOOC - jakso 6</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/TiinaPartanen">Tiina Partanen</a></strong> </div><p></p>
+
+
+
+<h2 id="2-harjoitustehtävät">2. Harjoitustehtävät</h2>
+
+
+
+<h3 id="a-racket-turtle-alkeet">A) Racket Turtle – alkeet</h3>
+
+<p>Racket Turtlen käyttö alkeet tasolla on helppoa. Kokeile erilaisia toimintoja myös perustehtävien ulkopuolelta. Nyt on lupa kokeilla ja leikkiä!</p>
+
+
+
+<h4 id="perustehtävät">Perustehtävät</h4>
+
+<ul>
+<li><p>Harjoittele Turtle-grafiikkaa piirtämällä geometrisia peruskuvioita <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/racket_turtle_alkeet.html#%28part._racket_turtle_peruskuviot%29" target="_blank">Peruskuviot</a>.</p></li>
+<li><p>Harjoittele toistorakennetta piirtämällä Turtle-grafiikan avulla neliöitä tai ympyröitä <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/racket_turtle_alkeet.html#%28part._racket_turtle_neliot%29" target="_blank">Neliöt</a>. <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/racket_turtle_alkeet.html#%28part._racket_turtle_ympyrat%29" target="_blank">Ympyrät</a>.</p></li>
+</ul>
+
+
+
+<h4 id="lisätehtävät">Lisätehtävät</h4>
+
+<ul>
+<li><p>Harjoittele lisää toistorakennetta ja Turtle-grafiikkaa piirtämällä kukkia <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/racket_turtle_alkeet.html#%28part._racket_turtle_kukka%29" target="_blank">Kukka</a>.</p></li>
+<li><p>Harjoittele leimasin toiminnon käyttöä Turtle-grafiikassa <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/racket_turtle_alkeet.html#%28part._racket_turtle_tahtirusetti%29" target="_blank">Tähtirusetti</a>.</p></li>
+</ul>
+
+<p>Huom! Racket Turtle vaatii <em>teachpacks</em> – paketin asentamisen DrRacket:iin. Jos olet tehnyt sen jo aikaisemmin niin kaikki on ok, muuten asenna se nyt. WeSchemessä ei tarvita paketin asennusta, riittää että otat kirjaston käyttöön: (require wescheme/oJ1vcDo5qd).</p>
+
+
+
+<h3 id="b-racket-turtle-jatko-higher-order-funktiot">B) Racket Turtle – jatko (Higher Order – funktiot)</h3>
+
+
+
+<h4 id="perustehtävät-1">Perustehtävät</h4>
+
+<ul>
+<li><p>Harjoittele spiraalin ja vinospiraalin piirtämistä käyttämällä Higher Order -funktioita (tai rekursiota) <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/jatko_turtle.html#%28part._racket_jatko_turtle%29" target="_blank">Spiraali ja vinospiraali</a>.</p></li>
+<li><p>Harjoittele leimasinlistan tekemistä Higher Order -funktioiden avulla <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/jatko_turtle.html#%28part._racket_jatko_turtle%29" target="_blank">Tähtilista ja tähtispiraali</a>.</p></li>
+</ul>
+
+
+
+<h4 id="lisätehtävät-1">Lisätehtävät</h4>
+
+<ul>
+<li><p>Harjoittele random-funktion ja Higher Order -funktioiden käyttöä ja koodaa satunnaisesti etenevä Turtle <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/jatko_turtle.html#%28part._racket_jatko_turtle%29" target="_blank">Random Turtle</a>.</p></li>
+<li><p>Harjoittele toistorakenteen ja peilauksen käyttämistä piirtämällä Turtle-grafiikan avulla Koch:in käyriä <br>
+Avaa tehtävä: <a href="http://racket.koodiaapinen.fi/tehtavat/jatko_turtle.html#%28part._racket_jatko_turtle_koch%29" target="_blank">Koch:in käyrät</a>.</p></li>
+</ul>
+
+<p>Voit tehdä Turtle jatko – tehtävät myös käyttämällä rekursiivista listan luomista. Higher Order – funktiot ajavat saman asian mutta lyhyemmällä koodilla, joten on makuasia kumpaa käyttää.</p>
+
+
+
+<h3 id="malliratkaisut">Malliratkaisut:</h3>
+
+<p>Yritä tehdä harjoitukset itse mutta, jos törmäät ongelmiin, katso malliratkaisut tästä.</p>
+
+
+
+<h4 id="turtle-alkeet">Turtle alkeet:</h4>
+
+<table>
+<thead>
+<tr>
+  <th>Tehtävä</th>
+  <th>Malliratkaisut</th>
+  <th>Malliratkaisut</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>Peruskuviot</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/turtle/racket_turtle_peruskuviot_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_peruskuviot_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Neliöt</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/turtle/racket_turtle_neliot_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_neliot_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Ympyrät</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/turtle/racket_turtle_ympyrat_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_ympyrat_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Kukka</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/turtle/racket_turtle_kukka_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_kukka_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Tähtirusetti</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/alkeet/turtle/racket_turtle_tahtirusetti_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_tahtirusetti_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+</tbody></table>
+
+
+
+
+<h4 id="turtle-jatko">Turtle jatko:</h4>
+
+<table>
+<thead>
+<tr>
+  <th>Tehtävä</th>
+  <th>Malliratkaisut</th>
+  <th>Malliratkaisut</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>Spiraali</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/racket_turtle_spiraali_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_spiraali_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Vinospiraali</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/racket_turtle_vinospiraali_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_vinospiraali_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Tähtilista</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/tahtilista_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/tahtilista_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Tähtispiraali</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/racket_turtle_tahtispiraali_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_tahtispiraali_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Random Turtle</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/racket_turtle_random_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_random_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+<tr>
+  <td>Koch:in käyrät</td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/jatko/listat/racket_turtle_kochin_kayrat_esimerkkiratkaisuja.rkt">DrRacket</a></td>
+  <td><a href="http://racket.koodiaapinen.fi/tehtavat/tiedostot/wescheme/racket_turtle_kochin_kayrat_esimerkkiratkaisuja.html" target="_blank">WeScheme</a></td>
+</tr>
+</tbody></table>
+
+
+<p>Harjoittele materiaalin kanssa sen verran, että pystyt tekemään palautettavan koodaustehtävän.</p>
+
+
+
+<h2 id="3-palautettava-koodaustehtävä">3. Palautettava koodaustehtävä</h2>
+
+<p>Tämän viikon palautustehtävä on Racket Turtle -kirjaston avulla piirretty kuva, joka palautetaan png-muodossa samalla tavalla kuin jaksolla 1 eli valitse kuva hiirellä ja valitse hiiren oikealla näppäimellä ”save image”. Kuva voi olla Racket Turtle – alkeet tyyppinen (esim. repeat – komentolla tai peilaamalla tehty kuva), se voi käyttää 2htdp/image -kirjastolla koodattua tai ”add image” – toiminnolla lisättyä kuvaa leimasimena, siinä voi olla käytössä rekursiivinen funktio tai Higher Order – funktio (esim. map).</p>
+
+<p>Voit käyttää malliratkaisuja pohjana, muokata niitä eteenpäin ja tehdä oman versiosi. Kirjoita kuvan yhteyteen myös lyhyt kuvaus siitä miten kuvasi on saatu aikaan.</p>
+
+<p>Vinkki opetukseen:</p>
+<p>Kun jokainen jakaa oman luovan ratkaisunsa Padlet-seinälle, lopputuloksista syntyy pienimuotoinen taidenäyttely. "taideseinä"Voit katsella muiden palautuksia <a href="https://plus.cs.hut.fi/aapinen-racket/K2017/jakso-6/muidenkuvat/">palautusseinän</a>kautta.</p>
+
+<p>Rohkaise oppilaita pitämään hauskaa, olemaan luovia, leikkimään ja kokeilemaan koodilla. Nyt ei ole tarkoitus tehdä check-expect:ejä vaan antaa koodin yllättää!</p>
+
+
+
+            </div>
+        </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
