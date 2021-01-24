@@ -64,13 +64,13 @@
 	}
 	#callout p{
 		text-align: center;
-		color: #F1F0D1; /*#878E63; /*#FEFBE8;*/
+		color: white;/* #F1F0D1; #878E63; /*#FEFBE8;*/
 		font-weight: bold;
 		font-size: 13px;
 		padding: 0.5% 5% 0 0;
 	}
 	#callout p a{
-		color:  #F1F0D1; 
+		color: white; /* #F1F0D1; */
 		text-decoration: none;
 	}
 	header {
