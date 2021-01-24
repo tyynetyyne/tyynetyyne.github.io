@@ -1,6 +1,7 @@
 
 	body {
 		/*background: hsl(174, 42%, 88%); /* #d3e7e6; */
+		background:  white;
 		font-family: Verdon, Tahoma, Arial, sans-serif;
 		font-size: 18px;
 		overflow:auto;
@@ -50,7 +51,7 @@
 	margin: 0 auto;
 	max-width: 1020px;
 	width: 98%;
-	background: #FEFBE8;
+	background: white ;
 	border: 1px solid #878E63;
 	border-radius: 2px;
 	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
